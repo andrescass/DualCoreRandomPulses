@@ -1,0 +1,1425 @@
+Archive member included because of file (symbol)
+
+C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+                              ./src/master_a.o (SystemCoreClockUpdate)
+C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                              C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o) (Chip_Clock_GetClockInputHz)
+C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+                              ./src/sysinit.o (fpuInit)
+C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+                              ./src/sysinit.o (Chip_SystemInit)
+C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+                              ./src/master_a.o (DIOSinglePinSetup)
+c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libcr_c.a(memcpy.o)
+                              ./src/ipc_msg.o (memcpy)
+c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libcr_c.a(memset.o)
+                              ./src/ipc_msg.o (memset)
+c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libcr_c.a(__weak__main.o)
+                              ./src/cr_startup_lpc43xx.o (__main)
+c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp\libcr_eabihelpers.a(memcpy.o)
+                              c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libcr_c.a(memcpy.o) (__aeabi_memcpy)
+
+Allocating common symbols
+Common symbol       size              file
+
+SystemCoreClock     0x4               C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+IPC_EventHandler    0x4               ./src/ipc_msg.o
+
+Discarded input sections
+
+ .group         0x00000000        0x8 ./src/cr_start_m0.o
+ .group         0x00000000        0x8 ./src/cr_start_m0.o
+ .group         0x00000000        0x8 ./src/cr_start_m0.o
+ .group         0x00000000        0x8 ./src/cr_start_m0.o
+ .group         0x00000000        0x8 ./src/cr_start_m0.o
+ .text          0x00000000        0x0 ./src/cr_start_m0.o
+ .data          0x00000000        0x0 ./src/cr_start_m0.o
+ .bss           0x00000000        0x0 ./src/cr_start_m0.o
+ .group         0x00000000        0x8 ./src/cr_startup_lpc43xx.o
+ .text          0x00000000        0x0 ./src/cr_startup_lpc43xx.o
+ .data          0x00000000        0x0 ./src/cr_startup_lpc43xx.o
+ .bss           0x00000000        0x0 ./src/cr_startup_lpc43xx.o
+ .debug_macro   0x00000000      0x8aa ./src/cr_startup_lpc43xx.o
+ .group         0x00000000        0x8 ./src/crp.o
+ .group         0x00000000        0x8 ./src/crp.o
+ .text          0x00000000        0x0 ./src/crp.o
+ .data          0x00000000        0x0 ./src/crp.o
+ .bss           0x00000000        0x0 ./src/crp.o
+ .debug_macro   0x00000000      0x8aa ./src/crp.o
+ .group         0x00000000        0x8 ./src/ipc_msg.o
+ .group         0x00000000        0x8 ./src/ipc_msg.o
+ .group         0x00000000        0x8 ./src/ipc_msg.o
+ .group         0x00000000        0x8 ./src/ipc_msg.o
+ .group         0x00000000        0x8 ./src/ipc_msg.o
+ .group         0x00000000        0x8 ./src/ipc_msg.o
+ .group         0x00000000        0x8 ./src/ipc_msg.o
+ .group         0x00000000        0x8 ./src/ipc_msg.o
+ .text          0x00000000        0x0 ./src/ipc_msg.o
+ .data          0x00000000        0x0 ./src/ipc_msg.o
+ .bss           0x00000000        0x0 ./src/ipc_msg.o
+ .text.IPC_EventHandler_sa
+                0x00000000       0x20 ./src/ipc_msg.o
+ .text.IPC_msgNotify
+                0x00000000        0xc ./src/ipc_msg.o
+ .rodata        0x00000000       0xce ./src/ipc_msg.o
+ .text.IPC_initMsgQueue
+                0x00000000       0x90 ./src/ipc_msg.o
+ .text.IPC_popMsgTout
+                0x00000000       0xd0 ./src/ipc_msg.o
+ .text.IPC_msgPending
+                0x00000000       0x44 ./src/ipc_msg.o
+ .text.IPC_strerror
+                0x00000000       0x30 ./src/ipc_msg.o
+ .data.ipc_errstr.4027
+                0x00000000       0x18 ./src/ipc_msg.o
+ .debug_macro   0x00000000      0x8aa ./src/ipc_msg.o
+ .debug_macro   0x00000000       0x10 ./src/ipc_msg.o
+ .debug_macro   0x00000000      0x12d ./src/ipc_msg.o
+ .debug_macro   0x00000000      0x5b2 ./src/ipc_msg.o
+ .group         0x00000000        0x8 ./src/master_a.o
+ .group         0x00000000        0x8 ./src/master_a.o
+ .group         0x00000000        0x8 ./src/master_a.o
+ .group         0x00000000        0x8 ./src/master_a.o
+ .group         0x00000000        0x8 ./src/master_a.o
+ .group         0x00000000        0x8 ./src/master_a.o
+ .group         0x00000000        0x8 ./src/master_a.o
+ .group         0x00000000        0x8 ./src/master_a.o
+ .group         0x00000000        0x8 ./src/master_a.o
+ .group         0x00000000        0x8 ./src/master_a.o
+ .group         0x00000000        0x8 ./src/master_a.o
+ .group         0x00000000        0x8 ./src/master_a.o
+ .group         0x00000000        0x8 ./src/master_a.o
+ .group         0x00000000        0x8 ./src/master_a.o
+ .group         0x00000000        0x8 ./src/master_a.o
+ .group         0x00000000        0x8 ./src/master_a.o
+ .group         0x00000000        0x8 ./src/master_a.o
+ .group         0x00000000        0x8 ./src/master_a.o
+ .group         0x00000000        0x8 ./src/master_a.o
+ .group         0x00000000        0x8 ./src/master_a.o
+ .group         0x00000000        0x8 ./src/master_a.o
+ .group         0x00000000        0x8 ./src/master_a.o
+ .group         0x00000000        0x8 ./src/master_a.o
+ .group         0x00000000        0x8 ./src/master_a.o
+ .group         0x00000000        0x8 ./src/master_a.o
+ .group         0x00000000        0x8 ./src/master_a.o
+ .group         0x00000000        0x8 ./src/master_a.o
+ .group         0x00000000        0x8 ./src/master_a.o
+ .group         0x00000000        0x8 ./src/master_a.o
+ .group         0x00000000        0x8 ./src/master_a.o
+ .group         0x00000000        0x8 ./src/master_a.o
+ .group         0x00000000        0x8 ./src/master_a.o
+ .group         0x00000000        0x8 ./src/master_a.o
+ .group         0x00000000        0x8 ./src/master_a.o
+ .group         0x00000000        0x8 ./src/master_a.o
+ .group         0x00000000        0x8 ./src/master_a.o
+ .group         0x00000000        0x8 ./src/master_a.o
+ .group         0x00000000        0x8 ./src/master_a.o
+ .group         0x00000000        0x8 ./src/master_a.o
+ .group         0x00000000        0x8 ./src/master_a.o
+ .group         0x00000000        0x8 ./src/master_a.o
+ .group         0x00000000        0x8 ./src/master_a.o
+ .group         0x00000000        0x8 ./src/master_a.o
+ .group         0x00000000        0x8 ./src/master_a.o
+ .group         0x00000000        0x8 ./src/master_a.o
+ .group         0x00000000        0x8 ./src/master_a.o
+ .group         0x00000000        0x8 ./src/master_a.o
+ .group         0x00000000        0x8 ./src/master_a.o
+ .group         0x00000000        0x8 ./src/master_a.o
+ .group         0x00000000        0x8 ./src/master_a.o
+ .group         0x00000000        0x8 ./src/master_a.o
+ .group         0x00000000        0x8 ./src/master_a.o
+ .group         0x00000000        0x8 ./src/master_a.o
+ .group         0x00000000        0x8 ./src/master_a.o
+ .group         0x00000000        0x8 ./src/master_a.o
+ .group         0x00000000        0x8 ./src/master_a.o
+ .group         0x00000000        0x8 ./src/master_a.o
+ .text          0x00000000        0x0 ./src/master_a.o
+ .data          0x00000000        0x0 ./src/master_a.o
+ .bss           0x00000000        0x0 ./src/master_a.o
+ .debug_macro   0x00000000      0x8aa ./src/master_a.o
+ .debug_macro   0x00000000       0x10 ./src/master_a.o
+ .debug_macro   0x00000000      0x12d ./src/master_a.o
+ .debug_macro   0x00000000      0x5b2 ./src/master_a.o
+ .debug_macro   0x00000000       0x22 ./src/master_a.o
+ .debug_macro   0x00000000       0x16 ./src/master_a.o
+ .debug_macro   0x00000000       0x58 ./src/master_a.o
+ .debug_macro   0x00000000       0x46 ./src/master_a.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .text          0x00000000        0x0 ./src/sysinit.o
+ .data          0x00000000        0x0 ./src/sysinit.o
+ .bss           0x00000000        0x0 ./src/sysinit.o
+ .debug_macro   0x00000000      0x8aa ./src/sysinit.o
+ .debug_macro   0x00000000       0x10 ./src/sysinit.o
+ .debug_macro   0x00000000       0x10 ./src/sysinit.o
+ .debug_macro   0x00000000      0x12d ./src/sysinit.o
+ .debug_macro   0x00000000      0x5b2 ./src/sysinit.o
+ .debug_macro   0x00000000       0x22 ./src/sysinit.o
+ .debug_macro   0x00000000       0x7b ./src/sysinit.o
+ .debug_macro   0x00000000       0x28 ./src/sysinit.o
+ .debug_macro   0x00000000       0x3b ./src/sysinit.o
+ .debug_macro   0x00000000       0x2d ./src/sysinit.o
+ .debug_macro   0x00000000       0x42 ./src/sysinit.o
+ .debug_macro   0x00000000      0xd39 ./src/sysinit.o
+ .debug_macro   0x00000000      0x2bc ./src/sysinit.o
+ .debug_macro   0x00000000      0x112 ./src/sysinit.o
+ .debug_macro   0x00000000       0x11 ./src/sysinit.o
+ .debug_macro   0x00000000       0x2a ./src/sysinit.o
+ .debug_macro   0x00000000       0x16 ./src/sysinit.o
+ .debug_macro   0x00000000      0x2e6 ./src/sysinit.o
+ .debug_macro   0x00000000       0x82 ./src/sysinit.o
+ .debug_macro   0x00000000      0x13d ./src/sysinit.o
+ .debug_macro   0x00000000      0x198 ./src/sysinit.o
+ .debug_macro   0x00000000       0x34 ./src/sysinit.o
+ .debug_macro   0x00000000       0x58 ./src/sysinit.o
+ .debug_macro   0x00000000      0x236 ./src/sysinit.o
+ .debug_macro   0x00000000      0x572 ./src/sysinit.o
+ .debug_macro   0x00000000       0x16 ./src/sysinit.o
+ .debug_macro   0x00000000      0x18a ./src/sysinit.o
+ .debug_macro   0x00000000       0x88 ./src/sysinit.o
+ .debug_macro   0x00000000      0x1b9 ./src/sysinit.o
+ .debug_macro   0x00000000      0x1da ./src/sysinit.o
+ .debug_macro   0x00000000       0x40 ./src/sysinit.o
+ .debug_macro   0x00000000       0x1c ./src/sysinit.o
+ .debug_macro   0x00000000       0x2e ./src/sysinit.o
+ .debug_macro   0x00000000       0x2e ./src/sysinit.o
+ .debug_macro   0x00000000       0x22 ./src/sysinit.o
+ .debug_macro   0x00000000      0x201 ./src/sysinit.o
+ .debug_macro   0x00000000       0xe0 ./src/sysinit.o
+ .debug_macro   0x00000000      0x34c ./src/sysinit.o
+ .debug_macro   0x00000000       0xdc ./src/sysinit.o
+ .debug_macro   0x00000000       0xc4 ./src/sysinit.o
+ .debug_macro   0x00000000       0x94 ./src/sysinit.o
+ .debug_macro   0x00000000       0xb8 ./src/sysinit.o
+ .debug_macro   0x00000000       0x4c ./src/sysinit.o
+ .debug_macro   0x00000000       0x16 ./src/sysinit.o
+ .debug_macro   0x00000000      0x328 ./src/sysinit.o
+ .debug_macro   0x00000000       0x3a ./src/sysinit.o
+ .debug_macro   0x00000000       0xd0 ./src/sysinit.o
+ .debug_macro   0x00000000       0x18 ./src/sysinit.o
+ .debug_macro   0x00000000       0x22 ./src/sysinit.o
+ .debug_macro   0x00000000       0x40 ./src/sysinit.o
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .text          0x00000000        0x0 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .data          0x00000000        0x0 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .bss           0x00000000        0x0 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .text.Chip_CREG_EnableUSB0Phy
+                0x00000000       0x1c C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .rodata.usbPLLSetup
+                0x00000000       0x14 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .text.Chip_USB_PllSetup
+                0x00000000       0x40 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .text.Chip_USB0_Init
+                0x00000000       0x2c C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .text.Chip_USB1_Init
+                0x00000000       0x48 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x10 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x10 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000      0x12d C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000      0x5b2 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x22 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x7b C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x28 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x3b C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x2d C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x42 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000      0xd39 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000      0x2bc C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000      0x112 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x11 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x2a C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x16 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000      0x2e6 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x82 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000      0x13d C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000      0x198 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x34 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x58 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000      0x236 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000      0x572 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x16 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000      0x18a C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x88 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000      0x1b9 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000      0x1da C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x40 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x1c C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x2e C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x2e C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x22 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000      0x201 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0xe0 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000      0x34c C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0xdc C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0xc4 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x94 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0xb8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x4c C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x16 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000      0x328 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x3a C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0xd0 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x18 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x22 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00000000       0x40 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text          0x00000000        0x0 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .data          0x00000000        0x0 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .bss           0x00000000        0x0 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_DisableMainPLL
+                0x00000000       0x1c C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_TestMainPLLMultiplier
+                0x00000000       0x48 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_DisableCrystal
+                0x00000000       0x1c C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_SetupMainPLLHz
+                0x00000000      0x128 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_SetupMainPLLMult
+                0x00000000       0xfc C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_SetDivider
+                0x00000000       0x84 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_GetBaseClockOpts
+                0x00000000       0x80 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_EnableBaseClock
+                0x00000000       0x3c C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_DisableBaseClock
+                0x00000000       0x3c C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_IsBaseClockEnabled
+                0x00000000       0x44 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_EnableOpts
+                0x00000000       0x7c C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_Enable
+                0x00000000       0x60 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_RTCEnable
+                0x00000000       0x28 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_Disable
+                0x00000000       0x60 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_StartPowerDown
+                0x00000000       0x20 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_ClearPowerDown
+                0x00000000       0x20 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_GetEMCRate
+                0x00000000       0x48 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_SetupPLL
+                0x00000000       0x78 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_EnablePLL
+                0x00000000       0x34 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_DisablePLL
+                0x00000000       0x34 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_GetPLLStatus
+                0x00000000       0x28 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x886 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x10 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x10 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x12d C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x5b2 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x22 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x7b C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x28 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x3b C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x2d C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x42 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0xd39 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x2bc C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x112 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x11 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x2a C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x16 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x2e6 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x82 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x13d C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x198 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x34 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x58 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x236 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x572 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x16 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x18a C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x88 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x1b9 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x1da C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x40 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x1c C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x2e C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x2e C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x22 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x201 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0xe0 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x34c C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0xdc C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0xc4 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x94 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0xb8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x4c C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x16 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x328 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x3a C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0xd0 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x18 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x22 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x40 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .text          0x00000000        0x0 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .data          0x00000000        0x0 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .bss           0x00000000        0x0 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .debug_macro   0x00000000      0x886 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .debug_macro   0x00000000       0x10 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .debug_macro   0x00000000       0x10 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .debug_macro   0x00000000      0x12d C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .debug_macro   0x00000000      0x5b2 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .debug_macro   0x00000000       0x22 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .debug_macro   0x00000000       0x7b C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .debug_macro   0x00000000       0x28 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .debug_macro   0x00000000       0x3b C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .debug_macro   0x00000000       0x2d C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .debug_macro   0x00000000       0x42 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .debug_macro   0x00000000      0xd39 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .text          0x00000000        0x0 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .data          0x00000000        0x0 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .bss           0x00000000        0x0 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .text.Chip_SetupXtalClocking
+                0x00000000       0x14 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0x886 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x10 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x10 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0x12d C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0x5b2 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x22 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x7b C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x28 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x3b C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x2d C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x42 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0xd39 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0x2bc C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0x112 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x11 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x2a C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x16 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0x2e6 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x82 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0x13d C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0x198 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x34 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x58 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0x236 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0x572 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x16 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0x18a C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x88 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0x1b9 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0x1da C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x40 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x1c C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x2e C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x2e C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x22 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0x201 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0xe0 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0x34c C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0xdc C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0xc4 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x94 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0xb8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x4c C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x16 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0x328 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x3a C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0xd0 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x18 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x22 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x40 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .group         0x00000000        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .text          0x00000000        0x0 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .data          0x00000000        0x0 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .bss           0x00000000        0x0 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .text.Chip_GPIO_WritePortBit
+                0x00000000       0x34 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .text.Chip_GPIO_SetPinOutHigh
+                0x00000000       0x30 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .text.Chip_GPIO_SetPinOutLow
+                0x00000000       0x30 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .text.DIOSetPinHigh
+                0x00000000       0x28 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .text.DIOSetPinHighVerif
+                0x00000000       0x44 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .text.DIOSetPinLow
+                0x00000000       0x28 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .text.DIOSetPinLowVerif
+                0x00000000       0x48 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .text.DIOSetPinToggleVerif
+                0x00000000       0x58 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .text.DIOSetPin
+                0x00000000       0x34 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .text.DIOSetPinVerif
+                0x00000000       0x50 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .debug_macro   0x00000000       0x10 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .debug_macro   0x00000000       0x10 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .debug_macro   0x00000000      0x12d C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .debug_macro   0x00000000      0x5b2 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .debug_macro   0x00000000       0x22 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .debug_macro   0x00000000       0x7b C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .debug_macro   0x00000000       0x28 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .debug_macro   0x00000000       0x3b C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .debug_macro   0x00000000       0x2d C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .debug_macro   0x00000000       0x42 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .debug_macro   0x00000000      0xd39 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .debug_macro   0x00000000      0x2bc C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .debug_macro   0x00000000      0x112 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .debug_macro   0x00000000       0x11 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .debug_macro   0x00000000       0x2a C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .debug_macro   0x00000000       0x16 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .debug_macro   0x00000000      0x2e6 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .debug_macro   0x00000000       0x82 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .debug_macro   0x00000000      0x13d C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .debug_macro   0x00000000      0x198 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .debug_macro   0x00000000       0x34 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .debug_macro   0x00000000       0x58 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .debug_macro   0x00000000      0x236 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .debug_macro   0x00000000      0x572 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .debug_macro   0x00000000       0x16 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .debug_macro   0x00000000      0x18a C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .debug_macro   0x00000000       0x88 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .debug_macro   0x00000000      0x1b9 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .debug_macro   0x00000000      0x1da C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .debug_macro   0x00000000       0x40 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .debug_macro   0x00000000       0x1c C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .debug_macro   0x00000000       0x2e C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .debug_macro   0x00000000       0x2e C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .debug_macro   0x00000000       0x22 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .debug_macro   0x00000000      0x201 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .debug_macro   0x00000000       0xe0 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .debug_macro   0x00000000      0x34c C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .debug_macro   0x00000000       0xdc C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .debug_macro   0x00000000       0xc4 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .debug_macro   0x00000000       0x94 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .debug_macro   0x00000000       0xb8 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .debug_macro   0x00000000       0x4c C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .debug_macro   0x00000000       0x16 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .debug_macro   0x00000000      0x328 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .debug_macro   0x00000000       0x3a C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .debug_macro   0x00000000       0xd0 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .debug_macro   0x00000000       0x18 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .debug_macro   0x00000000       0x22 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .debug_macro   0x00000000       0x40 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .debug_macro   0x00000000       0x22 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libcr_c.a(memcpy.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libcr_c.a(memcpy.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libcr_c.a(memcpy.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libcr_c.a(memset.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libcr_c.a(memset.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libcr_c.a(memset.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libcr_c.a(__weak__main.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libcr_c.a(__weak__main.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libcr_c.a(__weak__main.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp\libcr_eabihelpers.a(memcpy.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp\libcr_eabihelpers.a(memcpy.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp\libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memmove
+                0x00000000       0x1c c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp\libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memclr
+                0x00000000        0x8 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp\libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memset
+                0x00000000        0xa c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp\libcr_eabihelpers.a(memcpy.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+MFlashA512       0x1a000000         0x00080000         xr
+MFlashB512       0x1b000000         0x00080000         xr
+RamLoc32         0x10000000         0x00008000         xrw
+RamLoc40         0x10080000         0x0000a000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./src/cr_start_m0.o
+LOAD ./src/cr_startup_lpc43xx.o
+LOAD ./src/crp.o
+LOAD ./src/ipc_msg.o
+LOAD ./src/master_a.o
+LOAD ./src/sysinit.o
+LOAD C:/Work/Supervisores/multicore/LPC4337/trunk/slave_a/Debug/slave_a.axf.o
+LOAD C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a
+LOAD C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a
+START GROUP
+LOAD c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libcr_c.a
+LOAD c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp\libcr_eabihelpers.a
+END GROUP
+                0x1a000000                __base_MFlashA512 = 0x1a000000
+                0x1a000000                __base_Flash = 0x1a000000
+                0x1a080000                __top_MFlashA512 = 0x1a080000
+                0x1a080000                __top_Flash = 0x1a080000
+                0x1b000000                __base_MFlashB512 = 0x1b000000
+                0x1b000000                __base_Flash2 = 0x1b000000
+                0x1b080000                __top_MFlashB512 = 0x1b080000
+                0x1b080000                __top_Flash2 = 0x1b080000
+                0x10000000                __base_RamLoc32 = 0x10000000
+                0x10000000                __base_RAM = 0x10000000
+                0x10008000                __top_RamLoc32 = 0x10008000
+                0x10008000                __top_RAM = 0x10008000
+                0x10080000                __base_RamLoc40 = 0x10080000
+                0x10080000                __base_RAM2 = 0x10080000
+                0x1008a000                __top_RamLoc40 = 0x1008a000
+                0x1008a000                __top_RAM2 = 0x1008a000
+
+.text.core_m0app_text
+                0x1b000000      0x9d4
+ FILL mask 0xff
+                0x1b000000                __core_m0app_START__ = .
+ *(.core_m0app)
+ .core_m0app    0x1b000000      0x9d4 C:/Work/Supervisores/multicore/LPC4337/trunk/slave_a/Debug/slave_a.axf.o
+
+.text.core_m0app_ARM_extab
+                0x1b0009d4        0x0
+ FILL mask 0xff
+ *(.core_m0app.ARM.extab)
+
+.text.core_m0app_ARM_exidx
+                0x1b0009d4        0x0
+ FILL mask 0xff
+ *(.core_m0app.ARM.exidx)
+
+.text.core_m0app_data
+                0x1b0009d4        0x0
+ FILL mask 0xff
+ *(.core_m0app.data_*)
+ *(.core_m0app.data)
+ .core_m0app.data
+                0x1b0009d4        0x0 C:/Work/Supervisores/multicore/LPC4337/trunk/slave_a/Debug/slave_a.axf.o
+                0x1b0009d4                __end_data_core_m0app
+                0x1b0009d4                __start_data_core_m0app
+                0x1b0009d4                __core_m0app_END__ = .
+                0x00000001                ASSERT (! ((__core_m0app_START__ == __core_m0app_END__)), No slave code for _core_m0app)
+                0x00000001                ASSERT ((ABSOLUTE (__core_m0app_START__) == __vectors_start___core_m0app), M0APP execute address differs from address provided in source image)
+
+.text_Flash2    0x1b0009d4        0x0
+ FILL mask 0xff
+ *(.text_Flash2*)
+ *(.text_MFlashB512*)
+ *(.text.$Flash2*)
+ *(.text.$MFlashB512*)
+ *(.rodata.$Flash2*)
+ *(.rodata.$MFlashB512*)
+
+.text           0x1a000000     0x16d4
+ FILL mask 0xff
+                0x1a000000                __vectors_start__ = ABSOLUTE (.)
+ *(.isr_vector)
+ .isr_vector    0x1a000000      0x114 ./src/cr_startup_lpc43xx.o
+                0x1a000000                g_pfnVectors
+                0x1a000114                . = ALIGN (0x4)
+                0x1a000114                __section_table_start = .
+                0x1a000114                __data_section_table = .
+                0x1a000114        0x4 LONG 0x1a0016d4 LOADADDR (.data)
+                0x1a000118        0x4 LONG 0x10000000 ADDR (.data)
+                0x1a00011c        0x4 LONG 0x4 SIZEOF (.data)
+                0x1a000120        0x4 LONG 0x1a0016d4 LOADADDR (.data_RAM2)
+                0x1a000124        0x4 LONG 0x10080000 ADDR (.data_RAM2)
+                0x1a000128        0x4 LONG 0x0 SIZEOF (.data_RAM2)
+                0x1a00012c                __data_section_table_end = .
+                0x1a00012c                __bss_section_table = .
+                0x1a00012c        0x4 LONG 0x10000004 ADDR (.bss)
+                0x1a000130        0x4 LONG 0x18 SIZEOF (.bss)
+                0x1a000134        0x4 LONG 0x10080000 ADDR (.bss_RAM2)
+                0x1a000138        0x4 LONG 0x0 SIZEOF (.bss_RAM2)
+                0x1a00013c                __bss_section_table_end = .
+                0x1a00013c                __section_table_end = .
+ *(.after_vectors*)
+ .after_vectors
+                0x1a00013c       0xcc ./src/cr_startup_lpc43xx.o
+                0x1a00013c                data_init
+                0x1a000180                bss_init
+                0x1a0001b8                NMI_Handler
+                0x1a0001c0                HardFault_Handler
+                0x1a0001c8                MemManage_Handler
+                0x1a0001d0                BusFault_Handler
+                0x1a0001d8                UsageFault_Handler
+                0x1a0001e0                SVC_Handler
+                0x1a0001e8                DebugMon_Handler
+                0x1a0001f0                PendSV_Handler
+                0x1a0001f8                SysTick_Handler
+                0x1a000200                ATIMER_IRQHandler
+                0x1a000200                I2C1_IRQHandler
+                0x1a000200                UART1_IRQHandler
+                0x1a000200                GPIO5_IRQHandler
+                0x1a000200                CAN1_IRQHandler
+                0x1a000200                USB1_IRQHandler
+                0x1a000200                I2S0_IRQHandler
+                0x1a000200                TIMER3_IRQHandler
+                0x1a000200                UART0_IRQHandler
+                0x1a000200                I2C0_IRQHandler
+                0x1a000200                SGPIO_IRQHandler
+                0x1a000200                FLASH_EEPROM_IRQHandler
+                0x1a000200                ADCHS_IRQHandler
+                0x1a000200                GPIO6_IRQHandler
+                0x1a000200                IntDefaultHandler
+                0x1a000200                GPIO1_IRQHandler
+                0x1a000200                SSP0_IRQHandler
+                0x1a000200                ADC1_IRQHandler
+                0x1a000200                RTC_IRQHandler
+                0x1a000200                TIMER0_IRQHandler
+                0x1a000200                SPI_IRQHandler
+                0x1a000200                LCD_IRQHandler
+                0x1a000200                RIT_IRQHandler
+                0x1a000200                TIMER1_IRQHandler
+                0x1a000200                UART2_IRQHandler
+                0x1a000200                GPIO2_IRQHandler
+                0x1a000200                I2S1_IRQHandler
+                0x1a000200                SSP1_IRQHandler
+                0x1a000200                USB0_IRQHandler
+                0x1a000200                GPIO3_IRQHandler
+                0x1a000200                SCT_IRQHandler
+                0x1a000200                SDIO_IRQHandler
+                0x1a000200                WDT_IRQHandler
+                0x1a000200                ADC0_IRQHandler
+                0x1a000200                GPIO7_IRQHandler
+                0x1a000200                SPIFI_IRQHandler
+                0x1a000200                QEI_IRQHandler
+                0x1a000200                ETH_IRQHandler
+                0x1a000200                CAN0_IRQHandler
+                0x1a000200                GINT0_IRQHandler
+                0x1a000200                DAC_IRQHandler
+                0x1a000200                M0SUB_IRQHandler
+                0x1a000200                GPIO0_IRQHandler
+                0x1a000200                DMA_IRQHandler
+                0x1a000200                EVRT_IRQHandler
+                0x1a000200                TIMER2_IRQHandler
+                0x1a000200                UART3_IRQHandler
+                0x1a000200                MCPWM_IRQHandler
+                0x1a000200                M0APP_IRQHandler
+                0x1a000200                GINT1_IRQHandler
+                0x1a000200                GPIO4_IRQHandler
+                0x000002fc                . = 0x2fc
+ *fill*         0x1a000208       0xf4 ff
+                0x1a0002fc                PROVIDE (__CRP_WORD_START__, .)
+ *(.crp)
+ .crp           0x1a0002fc        0x4 ./src/crp.o
+                0x1a0002fc                CRP_WORD
+                0x1a000300                PROVIDE (__CRP_WORD_END__, .)
+                0x00000001                ASSERT (! ((__CRP_WORD_START__ == __CRP_WORD_END__)), Linker CRP Enabled, but no CRP_WORD provided within application)
+ *(.text*)
+ .text.startSlave
+                0x1a000300       0x80 ./src/cr_start_m0.o
+ .text.haltSlave
+                0x1a000380       0x80 ./src/cr_start_m0.o
+ .text.cr_start_m0
+                0x1a000400       0x40 ./src/cr_start_m0.o
+                0x1a000400                cr_start_m0
+ .text.ResetISR
+                0x1a000440       0xc4 ./src/cr_startup_lpc43xx.o
+                0x1a000440                ResetISR
+ .text.ipc_send_signal
+                0x1a000504        0xc ./src/ipc_msg.o
+ .text.IPC_pushMsgTout
+                0x1a000510       0xc8 ./src/ipc_msg.o
+                0x1a000510                IPC_pushMsgTout
+ .text.main     0x1a0005d8      0x150 ./src/master_a.o
+                0x1a0005d8                main
+ .text.SystemInit
+                0x1a000728       0x28 ./src/sysinit.o
+                0x1a000728                SystemInit
+ .text.SystemCoreClockUpdate
+                0x1a000750       0x18 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+                0x1a000750                SystemCoreClockUpdate
+ .text.ABS      0x1a000768       0x24 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.pll_calc_divs
+                0x1a00078c      0x11c C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.pll_get_frac
+                0x1a0008a8      0x178 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_GetDivRate
+                0x1a000a20       0x40 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_FindBaseClock
+                0x1a000a60       0x88 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_EnableCrystal
+                0x1a000ae8       0x6c C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                0x1a000ae8                Chip_Clock_EnableCrystal
+ .text.Chip_Clock_CalcMainPLLValue
+                0x1a000b54       0xd8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                0x1a000b54                Chip_Clock_CalcMainPLLValue
+ .text.Chip_Clock_GetMainPLLHz
+                0x1a000c2c       0xc0 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                0x1a000c2c                Chip_Clock_GetMainPLLHz
+ .text.Chip_Clock_GetDividerSource
+                0x1a000cec       0x40 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                0x1a000cec                Chip_Clock_GetDividerSource
+ .text.Chip_Clock_GetDividerDivisor
+                0x1a000d2c       0x38 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                0x1a000d2c                Chip_Clock_GetDividerDivisor
+ .text.Chip_Clock_GetClockInputHz
+                0x1a000d64      0x140 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                0x1a000d64                Chip_Clock_GetClockInputHz
+ .text.Chip_Clock_GetBaseClocktHz
+                0x1a000ea4       0x24 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                0x1a000ea4                Chip_Clock_GetBaseClocktHz
+ .text.Chip_Clock_SetBaseClock
+                0x1a000ec8       0x9c C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                0x1a000ec8                Chip_Clock_SetBaseClock
+ .text.Chip_Clock_GetBaseClock
+                0x1a000f64       0x4c C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                0x1a000f64                Chip_Clock_GetBaseClock
+ .text.Chip_Clock_GetRate
+                0x1a000fb0       0x88 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                0x1a000fb0                Chip_Clock_GetRate
+ .text.fpuInit  0x1a001038       0x74 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+                0x1a001038                fpuInit
+ .text.Chip_Clock_DisableMainPLL
+                0x1a0010ac       0x1c C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .text.Chip_Clock_SetupMainPLL
+                0x1a0010c8       0x40 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .text.Chip_Clock_MainPLLLocked
+                0x1a001108       0x24 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .text.Chip_SetupCoreClock
+                0x1a00112c      0x15c C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+                0x1a00112c                Chip_SetupCoreClock
+ .text.Chip_SetupIrcClocking
+                0x1a001288       0x14 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+                0x1a001288                Chip_SetupIrcClocking
+ .text.Chip_SystemInit
+                0x1a00129c        0xc C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+                0x1a00129c                Chip_SystemInit
+ .text.Chip_SCU_PinMuxSet
+                0x1a0012a8       0x30 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .text.Chip_GPIO_GetPinState
+                0x1a0012d8       0x38 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .text.Chip_GPIO_SetPinDIROutput
+                0x1a001310       0x3c C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .text.Chip_GPIO_SetPinDIRInput
+                0x1a00134c       0x40 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .text.Chip_GPIO_SetPinToggle
+                0x1a00138c       0x30 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .text.DIOSinglePinSetup
+                0x1a0013bc       0xb0 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+                0x1a0013bc                DIOSinglePinSetup
+ .text.DIOSetPinToggle
+                0x1a00146c       0x28 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+                0x1a00146c                DIOSetPinToggle
+ .text.DIOGetPinState
+                0x1a001494       0x2c C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+                0x1a001494                DIOGetPinState
+ .text.memcpy   0x1a0014c0        0x4 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libcr_c.a(memcpy.o)
+                0x1a0014c0                memcpy
+ .text.memset   0x1a0014c4        0x4 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libcr_c.a(memset.o)
+                0x1a0014c4                memset
+ .text.__weak_main
+                0x1a0014c8        0x4 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libcr_c.a(__weak__main.o)
+                0x1a0014c8                __weak_main
+                0x1a0014c8                __main
+ .text.__aeabi_memcpy
+                0x1a0014cc       0x34 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp\libcr_eabihelpers.a(memcpy.o)
+                0x1a0014cc                __aeabi_memcpy
+                0x1a0014d6                __aeabi_memcpy8
+                0x1a0014d6                __aeabi_memcpy4
+ .text.__aeabi_memset_lowlevel
+                0x1a001500       0x32 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp\libcr_eabihelpers.a(memcpy.o)
+                0x1a001500                __aeabi_lowlevel_memset
+ *(.rodata .rodata.* .constdata .constdata.*)
+ *fill*         0x1a001532        0x2 
+ .rodata.ExtRateIn
+                0x1a001534        0x4 ./src/sysinit.o
+                0x1a001534                ExtRateIn
+ .rodata.OscRateIn
+                0x1a001538        0x4 ./src/sysinit.o
+                0x1a001538                OscRateIn
+ .rodata.periph_to_base
+                0x1a00153c       0x6c C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .rodata        0x1a0015a8        0xa C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ *fill*         0x1a0015b2        0x2 
+ .rodata.InitClkStates
+                0x1a0015b4       0x48 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .rodata.GPIO_PHYS_PORT
+                0x1a0015fc       0x6c C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+                0x1a0015fc                GPIO_PHYS_PORT
+ .rodata.GPIO_PHYS_PIN
+                0x1a001668       0x6c C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+                0x1a001668                GPIO_PHYS_PIN
+                0x1a0016d4                . = ALIGN (0x4)
+
+.glue_7         0x1a0016d4        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x1a0016d4        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x1a0016d4        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x1a0016d4        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x1a0016d4        0x0
+ .iplt          0x00000000        0x0 ./src/cr_start_m0.o
+
+.rel.dyn        0x1a0016d4        0x0
+ .rel.iplt      0x00000000        0x0 ./src/cr_start_m0.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x1a0016d4                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x1a0016d4                __exidx_end = .
+                0x1a0016d4                _etext = .
+
+.data_RAM2      0x10080000        0x0 load address 0x1a0016d4
+ FILL mask 0xff
+                0x10080000                PROVIDE (__start_data_RAM2, .)
+ *(.ramfunc.$RAM2)
+ *(.ramfunc.$RamLoc40)
+ *(.data.$RAM2*)
+ *(.data.$RamLoc40*)
+                0x10080000                . = ALIGN (0x4)
+                0x10080000                PROVIDE (__end_data_RAM2, .)
+
+.uninit_RESERVED
+                0x10000000        0x0
+ *(.bss.$RESERVED*)
+                0x10000000                . = ALIGN (0x4)
+                0x10000000                _end_uninit_RESERVED = .
+ .uninit_RESERVED
+                0x10000000        0x0 C:/Work/Supervisores/multicore/LPC4337/trunk/slave_a/Debug/slave_a.axf.o
+
+.data           0x10000000        0x4 load address 0x1a0016d4
+ FILL mask 0xff
+                0x10000000                _data = .
+ *(vtable)
+ *(.ramfunc*)
+ *(.data*)
+ .data.q_ipc    0x10000000        0x4 ./src/ipc_msg.o
+                0x10000004                . = ALIGN (0x4)
+                0x10000004                _edata = .
+
+.igot.plt       0x10000004        0x0 load address 0x1a0016d8
+ .igot.plt      0x00000000        0x0 ./src/cr_start_m0.o
+
+.bss_RAM2       0x10080000        0x0
+                0x10080000                PROVIDE (__start_bss_RAM2, .)
+ *(.bss.$RAM2*)
+ *(.bss.$RamLoc40*)
+                0x10080000                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x10080000                PROVIDE (__end_bss_RAM2, .)
+
+.bss            0x10000004       0x18
+                0x10000004                _bss = .
+ *(.bss*)
+ .bss.i.9159    0x10000004        0x4 ./src/master_a.o
+ .bss.j.9160    0x10000008        0x4 ./src/master_a.o
+ .bss.audio_usb_pll_freq
+                0x1000000c        0x8 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ *(COMMON)
+ COMMON         0x10000014        0x4 ./src/ipc_msg.o
+                0x10000014                IPC_EventHandler
+ COMMON         0x10000018        0x4 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+                0x10000018                SystemCoreClock
+                0x1000001c                . = ALIGN (0x4)
+                0x1000001c                _ebss = .
+                0x1000001c                PROVIDE (end, .)
+
+.noinit_RAM2    0x10080000        0x0
+ *(.noinit.$RAM2*)
+ *(.noinit.$RamLoc40*)
+                0x10080000                . = ALIGN (0x4)
+
+.noinit         0x1000001c        0x0
+                0x1000001c                _noinit = .
+ *(.noinit*)
+                0x1000001c                . = ALIGN (0x4)
+                0x1000001c                _end_noinit = .
+                0x1000001c                PROVIDE (_pvHeapStart, DEFINED (__user_heap_base)?__user_heap_base:.)
+                0x10008000                PROVIDE (_vStackTop, DEFINED (__user_stack_top)?__user_stack_top:(__top_RamLoc32 - 0x0))
+                0x53ff72d2                PROVIDE (__valid_user_code_checksum, (0x0 - ((((((_vStackTop + (ResetISR + 0x1)) + (NMI_Handler + 0x1)) + (HardFault_Handler + 0x1)) + (DEFINED (MemManage_Handler)?MemManage_Handler:0x0 + 0x1)) + (DEFINED (BusFault_Handler)?BusFault_Handler:0x0 + 0x1)) + (DEFINED (UsageFault_Handler)?UsageFault_Handler:0x0 + 0x1))))
+OUTPUT(master_a.axf elf32-littlearm)
+
+.debug_info     0x00000000     0x4807
+ .debug_info    0x00000000      0x143 ./src/cr_start_m0.o
+ .debug_info    0x00000143      0x292 ./src/cr_startup_lpc43xx.o
+ .debug_info    0x000003d5       0x3f ./src/crp.o
+ .debug_info    0x00000414      0x3e0 ./src/ipc_msg.o
+ .debug_info    0x000007f4      0x401 ./src/master_a.o
+ .debug_info    0x00000bf5      0x5c2 ./src/sysinit.o
+ .debug_info    0x000011b7      0xa25 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_info    0x00001bdc     0x156e C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_info    0x0000314a      0x128 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .debug_info    0x00003272      0x8ec C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_info    0x00003b5e      0xca9 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+
+.debug_abbrev   0x00000000      0xd4d
+ .debug_abbrev  0x00000000       0x9a ./src/cr_start_m0.o
+ .debug_abbrev  0x0000009a       0xed ./src/cr_startup_lpc43xx.o
+ .debug_abbrev  0x00000187       0x36 ./src/crp.o
+ .debug_abbrev  0x000001bd      0x1d5 ./src/ipc_msg.o
+ .debug_abbrev  0x00000392      0x108 ./src/master_a.o
+ .debug_abbrev  0x0000049a       0xd9 ./src/sysinit.o
+ .debug_abbrev  0x00000573      0x148 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_abbrev  0x000006bb      0x2c0 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_abbrev  0x0000097b       0x84 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .debug_abbrev  0x000009ff      0x181 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_abbrev  0x00000b80      0x1cd C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+
+.debug_aranges  0x00000000      0x3f0
+ .debug_aranges
+                0x00000000       0x30 ./src/cr_start_m0.o
+ .debug_aranges
+                0x00000030       0x80 ./src/cr_startup_lpc43xx.o
+ .debug_aranges
+                0x000000b0       0x18 ./src/crp.o
+ .debug_aranges
+                0x000000c8       0x58 ./src/ipc_msg.o
+ .debug_aranges
+                0x00000120       0x20 ./src/master_a.o
+ .debug_aranges
+                0x00000140       0x20 ./src/sysinit.o
+ .debug_aranges
+                0x00000160       0x40 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_aranges
+                0x000001a0      0x138 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_aranges
+                0x000002d8       0x20 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .debug_aranges
+                0x000002f8       0x50 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_aranges
+                0x00000348       0xa8 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+
+.debug_ranges   0x00000000      0x338
+ .debug_ranges  0x00000000       0x20 ./src/cr_start_m0.o
+ .debug_ranges  0x00000020       0x70 ./src/cr_startup_lpc43xx.o
+ .debug_ranges  0x00000090       0x48 ./src/ipc_msg.o
+ .debug_ranges  0x000000d8       0x10 ./src/master_a.o
+ .debug_ranges  0x000000e8       0x10 ./src/sysinit.o
+ .debug_ranges  0x000000f8       0x30 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_ranges  0x00000128      0x128 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_ranges  0x00000250       0x10 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .debug_ranges  0x00000260       0x40 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_ranges  0x000002a0       0x98 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+
+.debug_macro    0x00000000     0x6f3b
+ .debug_macro   0x00000000       0x69 ./src/cr_start_m0.o
+ .debug_macro   0x00000069      0x8aa ./src/cr_start_m0.o
+ .debug_macro   0x00000913       0x16 ./src/cr_start_m0.o
+ .debug_macro   0x00000929       0x10 ./src/cr_start_m0.o
+ .debug_macro   0x00000939      0x12d ./src/cr_start_m0.o
+ .debug_macro   0x00000a66      0x5b2 ./src/cr_start_m0.o
+ .debug_macro   0x00001018       0x1d ./src/cr_startup_lpc43xx.o
+ .debug_macro   0x00001035       0x1a ./src/crp.o
+ .debug_macro   0x0000104f       0x34 ./src/crp.o
+ .debug_macro   0x00001083       0x80 ./src/ipc_msg.o
+ .debug_macro   0x00001103       0x58 ./src/ipc_msg.o
+ .debug_macro   0x0000115b       0x22 ./src/ipc_msg.o
+ .debug_macro   0x0000117d       0x74 ./src/ipc_msg.o
+ .debug_macro   0x000011f1       0x46 ./src/ipc_msg.o
+ .debug_macro   0x00001237      0x347 ./src/master_a.o
+ .debug_macro   0x0000157e       0x10 ./src/master_a.o
+ .debug_macro   0x0000158e       0x7b ./src/master_a.o
+ .debug_macro   0x00001609       0x28 ./src/master_a.o
+ .debug_macro   0x00001631       0x3b ./src/master_a.o
+ .debug_macro   0x0000166c       0x2d ./src/master_a.o
+ .debug_macro   0x00001699       0x42 ./src/master_a.o
+ .debug_macro   0x000016db      0xd39 ./src/master_a.o
+ .debug_macro   0x00002414      0x2bc ./src/master_a.o
+ .debug_macro   0x000026d0      0x112 ./src/master_a.o
+ .debug_macro   0x000027e2       0x11 ./src/master_a.o
+ .debug_macro   0x000027f3       0x2a ./src/master_a.o
+ .debug_macro   0x0000281d       0x16 ./src/master_a.o
+ .debug_macro   0x00002833      0x2e6 ./src/master_a.o
+ .debug_macro   0x00002b19       0x82 ./src/master_a.o
+ .debug_macro   0x00002b9b      0x13d ./src/master_a.o
+ .debug_macro   0x00002cd8      0x198 ./src/master_a.o
+ .debug_macro   0x00002e70       0x34 ./src/master_a.o
+ .debug_macro   0x00002ea4       0x58 ./src/master_a.o
+ .debug_macro   0x00002efc      0x236 ./src/master_a.o
+ .debug_macro   0x00003132      0x572 ./src/master_a.o
+ .debug_macro   0x000036a4       0x16 ./src/master_a.o
+ .debug_macro   0x000036ba      0x18a ./src/master_a.o
+ .debug_macro   0x00003844       0x88 ./src/master_a.o
+ .debug_macro   0x000038cc      0x1b9 ./src/master_a.o
+ .debug_macro   0x00003a85      0x1da ./src/master_a.o
+ .debug_macro   0x00003c5f       0x40 ./src/master_a.o
+ .debug_macro   0x00003c9f       0x1c ./src/master_a.o
+ .debug_macro   0x00003cbb       0x2e ./src/master_a.o
+ .debug_macro   0x00003ce9       0x2e ./src/master_a.o
+ .debug_macro   0x00003d17       0x22 ./src/master_a.o
+ .debug_macro   0x00003d39      0x201 ./src/master_a.o
+ .debug_macro   0x00003f3a       0xe0 ./src/master_a.o
+ .debug_macro   0x0000401a      0x34c ./src/master_a.o
+ .debug_macro   0x00004366       0xdc ./src/master_a.o
+ .debug_macro   0x00004442       0xc4 ./src/master_a.o
+ .debug_macro   0x00004506       0x94 ./src/master_a.o
+ .debug_macro   0x0000459a       0xb8 ./src/master_a.o
+ .debug_macro   0x00004652       0x4c ./src/master_a.o
+ .debug_macro   0x0000469e       0x16 ./src/master_a.o
+ .debug_macro   0x000046b4      0x328 ./src/master_a.o
+ .debug_macro   0x000049dc       0x3a ./src/master_a.o
+ .debug_macro   0x00004a16       0xd0 ./src/master_a.o
+ .debug_macro   0x00004ae6       0x18 ./src/master_a.o
+ .debug_macro   0x00004afe       0x22 ./src/master_a.o
+ .debug_macro   0x00004b20       0x40 ./src/master_a.o
+ .debug_macro   0x00004b60       0x82 ./src/master_a.o
+ .debug_macro   0x00004be2      0x24a ./src/master_a.o
+ .debug_macro   0x00004e2c       0xbe ./src/master_a.o
+ .debug_macro   0x00004eea       0x22 ./src/master_a.o
+ .debug_macro   0x00004f0c      0x2da ./src/sysinit.o
+ .debug_macro   0x000051e6      0x2da C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x000054c0      0x886 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_macro   0x00005d46      0x2e0 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_macro   0x00006026       0xc0 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .debug_macro   0x000060e6      0x2da C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x000063c0      0x2e3 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .debug_macro   0x000066a3      0x898 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+
+.debug_line     0x00000000     0x3369
+ .debug_line    0x00000000      0x15c ./src/cr_start_m0.o
+ .debug_line    0x0000015c       0xfa ./src/cr_startup_lpc43xx.o
+ .debug_line    0x00000256       0x78 ./src/crp.o
+ .debug_line    0x000002ce      0x2a3 ./src/ipc_msg.o
+ .debug_line    0x00000571      0x775 ./src/master_a.o
+ .debug_line    0x00000ce6      0x5da ./src/sysinit.o
+ .debug_line    0x000012c0      0x641 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_line    0x00001901      0xa3a C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_line    0x0000233b      0x1f1 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .debug_line    0x0000252c      0x6b3 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_line    0x00002bdf      0x78a C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+
+.debug_str      0x00000000    0x17f64
+ .debug_str     0x00000000     0x3e1e ./src/cr_start_m0.o
+                               0x3e97 (size before relaxing)
+ .debug_str     0x00003e1e      0x1e7 ./src/cr_startup_lpc43xx.o
+                               0x2749 (size before relaxing)
+ .debug_str     0x00004005       0xe9 ./src/crp.o
+                               0x2640 (size before relaxing)
+ .debug_str     0x000040ee      0x633 ./src/ipc_msg.o
+                               0x4329 (size before relaxing)
+ .debug_str     0x00004721    0x121f2 ./src/master_a.o
+                              0x1646e (size before relaxing)
+ .debug_str     0x00016913      0xa26 ./src/sysinit.o
+                              0x15ade (size before relaxing)
+ .debug_str     0x00017339      0x24d C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+                              0x15d62 (size before relaxing)
+ .debug_str     0x00017586      0x61e C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+                              0x162e5 (size before relaxing)
+ .debug_str     0x00017ba4       0xb5 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+                               0x98fb (size before relaxing)
+ .debug_str     0x00017c59       0xe7 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+                              0x15d31 (size before relaxing)
+ .debug_str     0x00017d40      0x224 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+                              0x15cfd (size before relaxing)
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 ./src/cr_start_m0.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 ./src/cr_startup_lpc43xx.o
+ .comment       0x00000000       0x71 ./src/crp.o
+ .comment       0x00000000       0x71 ./src/ipc_msg.o
+ .comment       0x00000000       0x71 ./src/master_a.o
+ .comment       0x00000000       0x71 ./src/sysinit.o
+ .comment       0x00000000       0x70 C:/Work/Supervisores/multicore/LPC4337/trunk/slave_a/Debug/slave_a.axf.o
+ .comment       0x00000000       0x71 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .comment       0x00000000       0x71 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .comment       0x00000000       0x71 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .comment       0x00000000       0x71 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .comment       0x00000000       0x71 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .comment       0x00000000       0x71 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libcr_c.a(memcpy.o)
+ .comment       0x00000000       0x71 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libcr_c.a(memset.o)
+ .comment       0x00000000       0x71 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libcr_c.a(__weak__main.o)
+
+.ARM.attributes
+                0x00000000       0x35
+ .ARM.attributes
+                0x00000000       0x37 ./src/cr_start_m0.o
+ .ARM.attributes
+                0x00000037       0x37 ./src/cr_startup_lpc43xx.o
+ .ARM.attributes
+                0x0000006e       0x37 ./src/crp.o
+ .ARM.attributes
+                0x000000a5       0x37 ./src/ipc_msg.o
+ .ARM.attributes
+                0x000000dc       0x37 ./src/master_a.o
+ .ARM.attributes
+                0x00000113       0x37 ./src/sysinit.o
+ .ARM.attributes
+                0x0000014a       0x37 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .ARM.attributes
+                0x00000181       0x37 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .ARM.attributes
+                0x000001b8       0x37 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .ARM.attributes
+                0x000001ef       0x37 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .ARM.attributes
+                0x00000226       0x37 C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)
+ .ARM.attributes
+                0x0000025d       0x37 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libcr_c.a(memcpy.o)
+ .ARM.attributes
+                0x00000294       0x37 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libcr_c.a(memset.o)
+ .ARM.attributes
+                0x000002cb       0x37 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libcr_c.a(__weak__main.o)
+ .ARM.attributes
+                0x00000302       0x25 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp\libcr_eabihelpers.a(memcpy.o)
+
+.debug_frame    0x00000000      0xd74
+ .debug_frame   0x00000000       0x84 ./src/cr_start_m0.o
+ .debug_frame   0x00000084      0x170 ./src/cr_startup_lpc43xx.o
+ .debug_frame   0x000001f4      0x12c ./src/ipc_msg.o
+ .debug_frame   0x00000320       0x30 ./src/master_a.o
+ .debug_frame   0x00000350       0x34 ./src/sysinit.o
+ .debug_frame   0x00000384       0xa0 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(chip_18xx_43xx.o)
+ .debug_frame   0x00000424      0x568 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(clock_18xx_43xx.o)
+ .debug_frame   0x0000098c       0x38 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(fpu_init.o)
+ .debug_frame   0x000009c4       0xf4 C:\Work\Supervisores\multicore\LPC4337\trunk\lpc_chip_43xx\Debug\liblpc_chip_43xx.a(sysinit_18xx_43xx.o)
+ .debug_frame   0x00000ab8      0x2bc C:\Work\Supervisores\multicore\LPC4337\trunk\LPC4337_Framework\Debug\libLPC4337_Framework.a(DIO.o)

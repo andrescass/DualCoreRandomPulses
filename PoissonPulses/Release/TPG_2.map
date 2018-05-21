@@ -1,0 +1,1181 @@
+Archive member included because of file (symbol)
+
+C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(DIO.o)
+                              ./src/TPG_2.o (DIOSinglePinSetup)
+C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(General.o)
+                              ./src/TPG_2.o (SupervisorInit)
+C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(INVAPBus.o)
+                              ./src/TPG_2.o (INVAPBus_Init)
+C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(timer_vect.o)
+                              C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(General.o) (TimeVect_Init)
+C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(chip_18xx_43xx.o)
+                              ./src/TPG_2.o (SystemCoreClockUpdate)
+C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(clock_18xx_43xx.o)
+                              C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(chip_18xx_43xx.o) (Chip_Clock_SetDivider)
+C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(fpu_init.o)
+                              ./src/sysinit.o (fpuInit)
+C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(gpio_18xx_43xx.o)
+                              C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(General.o) (Chip_GPIO_Init)
+C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(sysinit_18xx_43xx.o)
+                              ./src/sysinit.o (Chip_SystemInit)
+C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(timer_18xx_43xx.o)
+                              C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(timer_vect.o) (Chip_TIMER_Init)
+C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(CAN.o)
+                              C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(INVAPBus.o) (CAN_Init)
+C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(ccan_18xx_43xx.o)
+                              C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(CAN.o) (Chip_CCAN_SetBitRate)
+c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libcr_c.a(memset.o)
+                              C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(clock_18xx_43xx.o) (memset)
+c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libcr_c.a(__weak__main.o)
+                              ./src/cr_startup_lpc43xx.o (__main)
+c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp\libcr_eabihelpers.a(memcpy.o)
+                              c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libcr_c.a(memset.o) (__aeabi_lowlevel_memset)
+
+Allocating common symbols
+Common symbol       size              file
+
+sup_12VP            0x4               ./src/TPG_2.o
+sup_Q1              0x4               ./src/TPG_2.o
+sup_RS485           0x4               ./src/TPG_2.o
+wdt_wdi             0x4               ./src/TPG_2.o
+sup_ATEST           0x4               ./src/TPG_2.o
+histError           0x7               ./src/TPG_2.o
+module_address      0x1               ./src/TPG_2.o
+sup_OUT_plus        0x4               ./src/TPG_2.o
+sup_Sweep_SW        0x4               ./src/TPG_2.o
+errorFlags          0x4               ./src/TPG_2.o
+sup_Rate_B          0x4               ./src/TPG_2.o
+IBusObj             0x28              ./src/TPG_2.o
+sup_Q0              0x4               ./src/TPG_2.o
+inputADC            0x6               ./src/TPG_2.o
+supervErrorFlags    0x2               ./src/TPG_2.o
+sup_loc_Scale_Freq  0x4               ./src/TPG_2.o
+sup_ASHOTPC         0x4               ./src/TPG_2.o
+SystemCoreClock     0x4               C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(chip_18xx_43xx.o)
+add1                0x4               ./src/TPG_2.o
+add3                0x4               ./src/TPG_2.o
+sup_PC2             0x4               ./src/TPG_2.o
+sup_PC1             0x4               ./src/TPG_2.o
+sup_loc_Pulse_Gain  0x4               ./src/TPG_2.o
+sup_PC3             0x4               ./src/TPG_2.o
+calibOk             0x1               ./src/TPG_2.o
+sup_PC0             0x4               ./src/TPG_2.o
+outputADC           0x6               ./src/TPG_2.o
+outputCalParams     0x10              ./src/TPG_2.o
+firstPacket         0x1               ./src/TPG_2.o
+add0                0x4               ./src/TPG_2.o
+contErrEEPROM       0x1               ./src/TPG_2.o
+sup_PC              0x4               ./src/TPG_2.o
+outReadCounter      0x1               ./src/TPG_2.o
+sup_ASCALE_FREQ     0x4               ./src/TPG_2.o
+add5                0x4               ./src/TPG_2.o
+add4                0x4               ./src/TPG_2.o
+inputCalParams      0x10              ./src/TPG_2.o
+inReadCounter       0x1               ./src/TPG_2.o
+sup_Q2              0x4               ./src/TPG_2.o
+sup_24VP            0x4               ./src/TPG_2.o
+sup_12VN            0x4               ./src/TPG_2.o
+remote_lines        0x2               ./src/TPG_2.o
+configBitReg        0x2               ./src/TPG_2.o
+nim_voltages        0x1               ./src/TPG_2.o
+errorCont           0xc               ./src/TPG_2.o
+sup_Rate_A          0x4               ./src/TPG_2.o
+sup_OUT_minus       0x4               ./src/TPG_2.o
+led_OK              0x4               ./src/TPG_2.o
+add2                0x4               ./src/TPG_2.o
+sup_AGAINPC         0x4               ./src/TPG_2.o
+local_configuration
+                    0x1               ./src/TPG_2.o
+supervisorTimer     0x1               ./src/TPG_2.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 ./src/TPG_2.o
+ .data          0x00000000        0x0 ./src/TPG_2.o
+ .bss           0x00000000        0x0 ./src/TPG_2.o
+ .text.St_IA3Process
+                0x00000000       0x98 ./src/TPG_2.o
+ .text.CalParamSave
+                0x00000000       0x6c ./src/TPG_2.o
+ .text.St_InputRead
+                0x00000000       0xe4 ./src/TPG_2.o
+ .text.St_OutputRead
+                0x00000000       0xe4 ./src/TPG_2.o
+ .bss.inAccum   0x00000000       0x10 ./src/TPG_2.o
+ .bss.inAver    0x00000000       0x10 ./src/TPG_2.o
+ .bss.outValue  0x00000000       0x10 ./src/TPG_2.o
+ .bss.inValue   0x00000000       0x10 ./src/TPG_2.o
+ .bss.outAver   0x00000000       0x10 ./src/TPG_2.o
+ .bss.outCount  0x00000000        0x4 ./src/TPG_2.o
+ .bss.inCount   0x00000000        0x4 ./src/TPG_2.o
+ .bss.outAccum  0x00000000       0x10 ./src/TPG_2.o
+ .text          0x00000000        0x0 ./src/cr_startup_lpc43xx.o
+ .data          0x00000000        0x0 ./src/cr_startup_lpc43xx.o
+ .bss           0x00000000        0x0 ./src/cr_startup_lpc43xx.o
+ .text          0x00000000        0x0 ./src/crp.o
+ .data          0x00000000        0x0 ./src/crp.o
+ .bss           0x00000000        0x0 ./src/crp.o
+ .text          0x00000000        0x0 ./src/sysinit.o
+ .data          0x00000000        0x0 ./src/sysinit.o
+ .bss           0x00000000        0x0 ./src/sysinit.o
+ .text          0x00000000        0x0 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(DIO.o)
+ .data          0x00000000        0x0 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(DIO.o)
+ .bss           0x00000000        0x0 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(DIO.o)
+ .text.DIOSetPinHigh
+                0x00000000       0x14 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(DIO.o)
+ .text.DIOSetPinHighVerif
+                0x00000000       0x24 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(DIO.o)
+ .text.DIOSetPinLow
+                0x00000000       0x14 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(DIO.o)
+ .text.DIOSetPinLowVerif
+                0x00000000       0x24 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(DIO.o)
+ .text.DIOSetPinToggleVerif
+                0x00000000       0x2c C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(DIO.o)
+ .text.DIOSetPin
+                0x00000000       0x14 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(DIO.o)
+ .text.DIOSetPinVerif
+                0x00000000       0x24 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(DIO.o)
+ .text          0x00000000        0x0 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(General.o)
+ .data          0x00000000        0x0 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(General.o)
+ .bss           0x00000000        0x0 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(General.o)
+ .text.CoreReset
+                0x00000000       0x10 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(General.o)
+ .text.AverageCalc
+                0x00000000       0x30 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(General.o)
+ .text.SecOrderFilter
+                0x00000000       0x34 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(General.o)
+ .text.ParamAdjust
+                0x00000000       0x16 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(General.o)
+ .text.UpdateErrCont
+                0x00000000        0x2 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(General.o)
+ .text.GetNIMState
+                0x00000000       0x2c C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(General.o)
+ .text          0x00000000        0x0 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(INVAPBus.o)
+ .data          0x00000000        0x0 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(INVAPBus.o)
+ .bss           0x00000000        0x0 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(INVAPBus.o)
+ .text.INVAPBus_ClearCommErrCnt
+                0x00000000        0xc C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(INVAPBus.o)
+ .text          0x00000000        0x0 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(timer_vect.o)
+ .data          0x00000000        0x0 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(timer_vect.o)
+ .bss           0x00000000        0x0 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(timer_vect.o)
+ .text.TimeVect_GetTimer
+                0x00000000       0x14 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(timer_vect.o)
+ .text          0x00000000        0x0 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(chip_18xx_43xx.o)
+ .data          0x00000000        0x0 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(chip_18xx_43xx.o)
+ .bss           0x00000000        0x0 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(chip_18xx_43xx.o)
+ .text.Chip_USB_PllSetup
+                0x00000000       0x34 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(chip_18xx_43xx.o)
+ .text.Chip_USB0_Init
+                0x00000000       0x34 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(chip_18xx_43xx.o)
+ .text.Chip_USB1_Init
+                0x00000000       0x48 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(chip_18xx_43xx.o)
+ .rodata.usbPLLSetup
+                0x00000000       0x14 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(chip_18xx_43xx.o)
+ .text          0x00000000        0x0 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(clock_18xx_43xx.o)
+ .data          0x00000000        0x0 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(clock_18xx_43xx.o)
+ .bss           0x00000000        0x0 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_DisableCrystal
+                0x00000000       0x10 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_GetDividerDivisor
+                0x00000000       0x1c C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_GetBaseClockOpts
+                0x00000000       0x34 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_EnableBaseClock
+                0x00000000       0x1a C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_DisableBaseClock
+                0x00000000       0x1a C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_IsBaseClockEnabled
+                0x00000000       0x1c C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_RTCEnable
+                0x00000000       0x18 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_Disable
+                0x00000000       0x34 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_StartPowerDown
+                0x00000000       0x14 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_ClearPowerDown
+                0x00000000       0x14 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_GetEMCRate
+                0x00000000       0x2c C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_SetupPLL
+                0x00000000       0x40 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_EnablePLL
+                0x00000000       0x14 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_DisablePLL
+                0x00000000       0x14 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_GetPLLStatus
+                0x00000000        0xc C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(clock_18xx_43xx.o)
+ .text          0x00000000        0x0 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(fpu_init.o)
+ .data          0x00000000        0x0 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(fpu_init.o)
+ .bss           0x00000000        0x0 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(fpu_init.o)
+ .text          0x00000000        0x0 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(gpio_18xx_43xx.o)
+ .data          0x00000000        0x0 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(gpio_18xx_43xx.o)
+ .bss           0x00000000        0x0 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(gpio_18xx_43xx.o)
+ .text.Chip_GPIO_DeInit
+                0x00000000        0x2 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(gpio_18xx_43xx.o)
+ .text.Chip_GPIO_WriteDirBit
+                0x00000000       0x20 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(gpio_18xx_43xx.o)
+ .text.Chip_GPIO_SetDir
+                0x00000000       0x1a C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(gpio_18xx_43xx.o)
+ .text.Chip_GPIO_SetPinDIR
+                0x00000000       0x20 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(gpio_18xx_43xx.o)
+ .text.Chip_GPIO_SetPortDIR
+                0x00000000       0x1a C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(gpio_18xx_43xx.o)
+ .text          0x00000000        0x0 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(sysinit_18xx_43xx.o)
+ .data          0x00000000        0x0 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(sysinit_18xx_43xx.o)
+ .bss           0x00000000        0x0 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(sysinit_18xx_43xx.o)
+ .text.Chip_SetupXtalClocking
+                0x00000000       0x10 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(sysinit_18xx_43xx.o)
+ .text          0x00000000        0x0 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(timer_18xx_43xx.o)
+ .data          0x00000000        0x0 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(timer_18xx_43xx.o)
+ .bss           0x00000000        0x0 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(timer_18xx_43xx.o)
+ .text.Chip_TIMER_DeInit
+                0x00000000       0x2c C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(timer_18xx_43xx.o)
+ .text.Chip_TIMER_ExtMatchControlSet
+                0x00000000       0x26 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(timer_18xx_43xx.o)
+ .text          0x00000000        0x0 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(CAN.o)
+ .data          0x00000000        0x0 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(CAN.o)
+ .bss           0x00000000        0x0 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(CAN.o)
+ .text.CAN_GetMessage
+                0x00000000       0xb0 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(CAN.o)
+ .text.CAN_GetStatus
+                0x00000000       0x14 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(CAN.o)
+ .text.CAN_GetErrorCount
+                0x00000000       0x20 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(CAN.o)
+ .text          0x00000000        0x0 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(ccan_18xx_43xx.o)
+ .data          0x00000000        0x0 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(ccan_18xx_43xx.o)
+ .bss           0x00000000        0x0 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(ccan_18xx_43xx.o)
+ .text.Chip_CCAN_DeInit
+                0x00000000       0x14 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(ccan_18xx_43xx.o)
+ .text.Chip_CCAN_DeleteReceiveID
+                0x00000000       0x36 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(ccan_18xx_43xx.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libcr_c.a(memset.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libcr_c.a(memset.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libcr_c.a(memset.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libcr_c.a(__weak__main.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libcr_c.a(__weak__main.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libcr_c.a(__weak__main.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp\libcr_eabihelpers.a(memcpy.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp\libcr_eabihelpers.a(memcpy.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp\libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memcpy
+                0x00000000       0x34 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp\libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memmove
+                0x00000000       0x1c c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp\libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memclr
+                0x00000000        0x8 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp\libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memset
+                0x00000000        0xa c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp\libcr_eabihelpers.a(memcpy.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+MFlashA512       0x1a000000         0x00080000         xr
+MFlashB512       0x1b000000         0x00080000         xr
+RamLoc32         0x10000000         0x00008000         xrw
+RamLoc40         0x10080000         0x0000a000         xrw
+RamAHB32         0x20000000         0x00008000         xrw
+RamAHB16         0x20008000         0x00004000         xrw
+RamAHB_ETB16     0x2000c000         0x00004000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./src/TPG_2.o
+LOAD ./src/cr_startup_lpc43xx.o
+LOAD ./src/crp.o
+LOAD ./src/sysinit.o
+LOAD C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a
+LOAD C:\Users\Invap\Documents\Firmware\Marcos\lpc_chip_43xx\Release\liblpc_chip_43xx.a
+START GROUP
+LOAD c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libcr_c.a
+LOAD c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp\libcr_eabihelpers.a
+END GROUP
+                0x1a000000                __base_MFlashA512 = 0x1a000000
+                0x1a000000                __base_Flash = 0x1a000000
+                0x1a080000                __top_MFlashA512 = 0x1a080000
+                0x1a080000                __top_Flash = 0x1a080000
+                0x1b000000                __base_MFlashB512 = 0x1b000000
+                0x1b000000                __base_Flash2 = 0x1b000000
+                0x1b080000                __top_MFlashB512 = 0x1b080000
+                0x1b080000                __top_Flash2 = 0x1b080000
+                0x10000000                __base_RamLoc32 = 0x10000000
+                0x10000000                __base_RAM = 0x10000000
+                0x10008000                __top_RamLoc32 = 0x10008000
+                0x10008000                __top_RAM = 0x10008000
+                0x10080000                __base_RamLoc40 = 0x10080000
+                0x10080000                __base_RAM2 = 0x10080000
+                0x1008a000                __top_RamLoc40 = 0x1008a000
+                0x1008a000                __top_RAM2 = 0x1008a000
+                0x20000000                __base_RamAHB32 = 0x20000000
+                0x20000000                __base_RAM3 = 0x20000000
+                0x20008000                __top_RamAHB32 = 0x20008000
+                0x20008000                __top_RAM3 = 0x20008000
+                0x20008000                __base_RamAHB16 = 0x20008000
+                0x20008000                __base_RAM4 = 0x20008000
+                0x2000c000                __top_RamAHB16 = 0x2000c000
+                0x2000c000                __top_RAM4 = 0x2000c000
+                0x2000c000                __base_RamAHB_ETB16 = 0x2000c000
+                0x2000c000                __base_RAM5 = 0x2000c000
+                0x20010000                __top_RamAHB_ETB16 = 0x20010000
+                0x20010000                __top_RAM5 = 0x20010000
+
+.text_Flash2    0x1b000000        0x0
+ FILL mask 0xff
+ *(.text_Flash2*)
+ *(.text_MFlashB512*)
+ *(.text.$Flash2*)
+ *(.text.$MFlashB512*)
+ *(.rodata.$Flash2*)
+ *(.rodata.$MFlashB512*)
+
+.text           0x1a000000     0x2260
+ FILL mask 0xff
+                0x1a000000                __vectors_start__ = ABSOLUTE (.)
+ *(.isr_vector)
+ .isr_vector    0x1a000000      0x114 ./src/cr_startup_lpc43xx.o
+                0x1a000000                g_pfnVectors
+                0x1a000114                . = ALIGN (0x4)
+                0x1a000114                __section_table_start = .
+                0x1a000114                __data_section_table = .
+                0x1a000114        0x4 LONG 0x1a002260 LOADADDR (.data)
+                0x1a000118        0x4 LONG 0x10000000 ADDR (.data)
+                0x1a00011c        0x4 LONG 0x4 SIZEOF (.data)
+                0x1a000120        0x4 LONG 0x1a002260 LOADADDR (.data_RAM2)
+                0x1a000124        0x4 LONG 0x10080000 ADDR (.data_RAM2)
+                0x1a000128        0x4 LONG 0x0 SIZEOF (.data_RAM2)
+                0x1a00012c        0x4 LONG 0x1a002260 LOADADDR (.data_RAM3)
+                0x1a000130        0x4 LONG 0x20000000 ADDR (.data_RAM3)
+                0x1a000134        0x4 LONG 0x0 SIZEOF (.data_RAM3)
+                0x1a000138        0x4 LONG 0x1a002260 LOADADDR (.data_RAM4)
+                0x1a00013c        0x4 LONG 0x20008000 ADDR (.data_RAM4)
+                0x1a000140        0x4 LONG 0x0 SIZEOF (.data_RAM4)
+                0x1a000144        0x4 LONG 0x1a002260 LOADADDR (.data_RAM5)
+                0x1a000148        0x4 LONG 0x2000c000 ADDR (.data_RAM5)
+                0x1a00014c        0x4 LONG 0x0 SIZEOF (.data_RAM5)
+                0x1a000150                __data_section_table_end = .
+                0x1a000150                __bss_section_table = .
+                0x1a000150        0x4 LONG 0x10000004 ADDR (.bss)
+                0x1a000154        0x4 LONG 0x19c SIZEOF (.bss)
+                0x1a000158        0x4 LONG 0x10080000 ADDR (.bss_RAM2)
+                0x1a00015c        0x4 LONG 0x0 SIZEOF (.bss_RAM2)
+                0x1a000160        0x4 LONG 0x20000000 ADDR (.bss_RAM3)
+                0x1a000164        0x4 LONG 0x0 SIZEOF (.bss_RAM3)
+                0x1a000168        0x4 LONG 0x20008000 ADDR (.bss_RAM4)
+                0x1a00016c        0x4 LONG 0x0 SIZEOF (.bss_RAM4)
+                0x1a000170        0x4 LONG 0x2000c000 ADDR (.bss_RAM5)
+                0x1a000174        0x4 LONG 0x0 SIZEOF (.bss_RAM5)
+                0x1a000178                __bss_section_table_end = .
+                0x1a000178                __section_table_end = .
+ *(.after_vectors*)
+ .after_vectors
+                0x1a000178       0x3c ./src/cr_startup_lpc43xx.o
+                0x1a000178                NMI_Handler
+                0x1a00017a                HardFault_Handler
+                0x1a00017c                MemManage_Handler
+                0x1a00017e                BusFault_Handler
+                0x1a000180                UsageFault_Handler
+                0x1a000182                SVC_Handler
+                0x1a000184                DebugMon_Handler
+                0x1a000186                PendSV_Handler
+                0x1a000188                SysTick_Handler
+                0x1a00018a                ATIMER_IRQHandler
+                0x1a00018a                SDIO_IRQHandler
+                0x1a00018a                I2C1_IRQHandler
+                0x1a00018a                UART1_IRQHandler
+                0x1a00018a                GPIO5_IRQHandler
+                0x1a00018a                USB1_IRQHandler
+                0x1a00018a                I2S0_IRQHandler
+                0x1a00018a                TIMER3_IRQHandler
+                0x1a00018a                UART0_IRQHandler
+                0x1a00018a                GINT1_IRQHandler
+                0x1a00018a                SGPIO_IRQHandler
+                0x1a00018a                ADC0_IRQHandler
+                0x1a00018a                I2C0_IRQHandler
+                0x1a00018a                GPIO6_IRQHandler
+                0x1a00018a                IntDefaultHandler
+                0x1a00018a                GPIO1_IRQHandler
+                0x1a00018a                SSP0_IRQHandler
+                0x1a00018a                ADC1_IRQHandler
+                0x1a00018a                FLASH_EEPROM_IRQHandler
+                0x1a00018a                TIMER0_IRQHandler
+                0x1a00018a                SPI_IRQHandler
+                0x1a00018a                LCD_IRQHandler
+                0x1a00018a                M0APP_IRQHandler
+                0x1a00018a                TIMER1_IRQHandler
+                0x1a00018a                UART2_IRQHandler
+                0x1a00018a                GPIO2_IRQHandler
+                0x1a00018a                I2S1_IRQHandler
+                0x1a00018a                SSP1_IRQHandler
+                0x1a00018a                USB0_IRQHandler
+                0x1a00018a                GPIO3_IRQHandler
+                0x1a00018a                SCT_IRQHandler
+                0x1a00018a                ADCHS_IRQHandler
+                0x1a00018a                WDT_IRQHandler
+                0x1a00018a                RIT_IRQHandler
+                0x1a00018a                GPIO7_IRQHandler
+                0x1a00018a                SPIFI_IRQHandler
+                0x1a00018a                QEI_IRQHandler
+                0x1a00018a                ETH_IRQHandler
+                0x1a00018a                GINT0_IRQHandler
+                0x1a00018a                DAC_IRQHandler
+                0x1a00018a                M0SUB_IRQHandler
+                0x1a00018a                GPIO0_IRQHandler
+                0x1a00018a                DMA_IRQHandler
+                0x1a00018a                EVRT_IRQHandler
+                0x1a00018a                RTC_IRQHandler
+                0x1a00018a                UART3_IRQHandler
+                0x1a00018a                MCPWM_IRQHandler
+                0x1a00018a                GPIO4_IRQHandler
+                0x1a00018c                data_init
+                0x1a0001a2                bss_init
+                0x000002fc                . = 0x2fc
+ *fill*         0x1a0001b4      0x148 ff
+                0x1a0002fc                PROVIDE (__CRP_WORD_START__, .)
+ *(.crp)
+ .crp           0x1a0002fc        0x4 ./src/crp.o
+                0x1a0002fc                CRP_WORD
+                0x1a000300                PROVIDE (__CRP_WORD_END__, .)
+                0x00000001                ASSERT (! ((__CRP_WORD_START__ == __CRP_WORD_END__)), Linker CRP Enabled, but no CRP_WORD provided within application)
+ *(.text*)
+ .text.portConfiguration
+                0x1a000300      0x2c4 ./src/TPG_2.o
+                0x1a000300                portConfiguration
+ .text.getNimVoltages
+                0x1a0005c4       0x3c ./src/TPG_2.o
+                0x1a0005c4                getNimVoltages
+ .text.getModuleAddress
+                0x1a000600       0x78 ./src/TPG_2.o
+                0x1a000600                getModuleAddress
+ .text.getRemoteLines
+                0x1a000678       0xb8 ./src/TPG_2.o
+                0x1a000678                getRemoteLines
+ .text.getLocalConfiguration
+                0x1a000730       0xa4 ./src/TPG_2.o
+                0x1a000730                getLocalConfiguration
+ .text.CalParamInit
+                0x1a0007d4       0x34 ./src/TPG_2.o
+                0x1a0007d4                CalParamInit
+ .text.TPG_2_INVAPBusAttend
+                0x1a000808      0x144 ./src/TPG_2.o
+                0x1a000808                TPG_2_INVAPBusAttend
+ .text.startup.main
+                0x1a00094c       0xdc ./src/TPG_2.o
+                0x1a00094c                main
+ .text.ResetISR
+                0x1a000a28       0x78 ./src/cr_startup_lpc43xx.o
+                0x1a000a28                ResetISR
+ .text.SystemInit
+                0x1a000aa0       0x1c ./src/sysinit.o
+                0x1a000aa0                SystemInit
+ .text.DIOSinglePinSetup
+                0x1a000abc       0x5c C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(DIO.o)
+                0x1a000abc                DIOSinglePinSetup
+ .text.DIOSetPinToggle
+                0x1a000b18       0x14 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(DIO.o)
+                0x1a000b18                DIOSetPinToggle
+ .text.DIOGetPinState
+                0x1a000b2c       0x14 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(DIO.o)
+                0x1a000b2c                DIOGetPinState
+ .text.WatchdogInit
+                0x1a000b40       0x20 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(General.o)
+                0x1a000b40                WatchdogInit
+ .text.SupervisorInit
+                0x1a000b60      0x10c C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(General.o)
+                0x1a000b60                SupervisorInit
+ .text.WatchdogFeed
+                0x1a000c6c        0x8 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(General.o)
+                0x1a000c6c                WatchdogFeed
+ .text.GetBusAddress
+                0x1a000c74       0x54 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(General.o)
+                0x1a000c74                GetBusAddress
+ .text.ReadDI   0x1a000cc8       0x54 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(General.o)
+                0x1a000cc8                ReadDI
+ .text.CRC16    0x1a000d1c       0x46 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(General.o)
+                0x1a000d1c                CRC16
+ *fill*         0x1a000d62        0x2 
+ .text.SetINVAPBusPtr
+                0x1a000d64        0xc C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(General.o)
+                0x1a000d64                SetINVAPBusPtr
+ .text.GetHistError
+                0x1a000d70       0x14 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(General.o)
+                0x1a000d70                GetHistError
+ .text.PartErrContReset
+                0x1a000d84       0x2c C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(General.o)
+                0x1a000d84                PartErrContReset
+ .text.ErrorContInc
+                0x1a000db0      0x144 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(General.o)
+                0x1a000db0                ErrorContInc
+ .text.SupervisorCheck
+                0x1a000ef4      0x1cc C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(General.o)
+                0x1a000ef4                SupervisorCheck
+ .text.GetErrCont
+                0x1a0010c0        0x2 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(General.o)
+                0x1a0010c0                GetErrCont
+ *fill*         0x1a0010c2        0x2 
+ .text.INVAPBusErrorCallback
+                0x1a0010c4       0x10 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(INVAPBus.o)
+                0x1a0010c4                INVAPBusErrorCallback
+ .text.INVAPBusRxCallback
+                0x1a0010d4      0x15c C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(INVAPBus.o)
+                0x1a0010d4                INVAPBusRxCallback
+ .text.INVAPBus_Init
+                0x1a001230       0x4c C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(INVAPBus.o)
+                0x1a001230                INVAPBus_Init
+ .text.INVAPBus_GetCommErrCnt
+                0x1a00127c        0xc C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(INVAPBus.o)
+                0x1a00127c                INVAPBus_GetCommErrCnt
+ .text.TimeVect_Init
+                0x1a001288       0x80 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(timer_vect.o)
+                0x1a001288                TimeVect_Init
+ .text.TimeVect_GetTimerInitialize
+                0x1a001308       0x24 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(timer_vect.o)
+                0x1a001308                TimeVect_GetTimerInitialize
+ .text.TimeVect_SetTimer
+                0x1a00132c        0xc C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(timer_vect.o)
+                0x1a00132c                TimeVect_SetTimer
+ .text.TimeVect_IsTimer
+                0x1a001338       0x14 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(timer_vect.o)
+                0x1a001338                TimeVect_IsTimer
+ .text.TIMER2_IRQHandler
+                0x1a00134c       0x3c C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(timer_vect.o)
+                0x1a00134c                TIMER2_IRQHandler
+ .text.SystemCoreClockUpdate
+                0x1a001388       0x14 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(chip_18xx_43xx.o)
+                0x1a001388                SystemCoreClockUpdate
+ .text.pll_calc_divs
+                0x1a00139c       0x90 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_EnableCrystal
+                0x1a00142c       0x48 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(clock_18xx_43xx.o)
+                0x1a00142c                Chip_Clock_EnableCrystal
+ .text.Chip_Clock_SetDivider
+                0x1a001474       0x44 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(clock_18xx_43xx.o)
+                0x1a001474                Chip_Clock_SetDivider
+ .text.Chip_Clock_GetDividerSource
+                0x1a0014b8       0x18 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(clock_18xx_43xx.o)
+                0x1a0014b8                Chip_Clock_GetDividerSource
+ .text.Chip_Clock_GetClockInputHz
+                0x1a0014d0       0xa0 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(clock_18xx_43xx.o)
+                0x1a0014d0                Chip_Clock_GetClockInputHz
+ .text.Chip_Clock_CalcMainPLLValue
+                0x1a001570      0x138 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(clock_18xx_43xx.o)
+                0x1a001570                Chip_Clock_CalcMainPLLValue
+ .text.Chip_Clock_SetupMainPLLMult
+                0x1a0016a8       0x90 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(clock_18xx_43xx.o)
+                0x1a0016a8                Chip_Clock_SetupMainPLLMult
+ .text.Chip_Clock_SetupMainPLLHz
+                0x1a001738       0xb4 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(clock_18xx_43xx.o)
+                0x1a001738                Chip_Clock_SetupMainPLLHz
+ .text.Chip_Clock_GetMainPLLHz
+                0x1a0017ec       0x60 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(clock_18xx_43xx.o)
+                0x1a0017ec                Chip_Clock_GetMainPLLHz
+ .text.Chip_Clock_GetDivRate.isra.0
+                0x1a00184c       0x30 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_SetBaseClock
+                0x1a00187c       0x3c C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(clock_18xx_43xx.o)
+                0x1a00187c                Chip_Clock_SetBaseClock
+ .text.Chip_Clock_GetBaseClock
+                0x1a0018b8       0x1c C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(clock_18xx_43xx.o)
+                0x1a0018b8                Chip_Clock_GetBaseClock
+ .text.Chip_Clock_GetBaseClocktHz
+                0x1a0018d4        0xe C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(clock_18xx_43xx.o)
+                0x1a0018d4                Chip_Clock_GetBaseClocktHz
+ *fill*         0x1a0018e2        0x2 
+ .text.Chip_Clock_EnableOpts
+                0x1a0018e4       0x34 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(clock_18xx_43xx.o)
+                0x1a0018e4                Chip_Clock_EnableOpts
+ .text.Chip_Clock_Enable
+                0x1a001918       0x34 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(clock_18xx_43xx.o)
+                0x1a001918                Chip_Clock_Enable
+ .text.Chip_Clock_GetRate
+                0x1a00194c       0x60 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(clock_18xx_43xx.o)
+                0x1a00194c                Chip_Clock_GetRate
+ .text.fpuInit  0x1a0019ac       0x48 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(fpu_init.o)
+                0x1a0019ac                fpuInit
+ .text.Chip_GPIO_Init
+                0x1a0019f4        0x2 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(gpio_18xx_43xx.o)
+                0x1a0019f4                Chip_GPIO_Init
+ *fill*         0x1a0019f6        0x2 
+ .text.Chip_Clock_SetupMainPLL
+                0x1a0019f8       0x24 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(sysinit_18xx_43xx.o)
+ .text.Chip_SetupCoreClock
+                0x1a001a1c      0x10c C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(sysinit_18xx_43xx.o)
+                0x1a001a1c                Chip_SetupCoreClock
+ .text.Chip_SetupIrcClocking
+                0x1a001b28       0x10 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(sysinit_18xx_43xx.o)
+                0x1a001b28                Chip_SetupIrcClocking
+ .text.Chip_SystemInit
+                0x1a001b38        0x4 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(sysinit_18xx_43xx.o)
+                0x1a001b38                Chip_SystemInit
+ .text.Chip_TIMER_Init
+                0x1a001b3c       0x2c C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(timer_18xx_43xx.o)
+                0x1a001b3c                Chip_TIMER_Init
+ .text.Chip_TIMER_Reset
+                0x1a001b68       0x18 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(timer_18xx_43xx.o)
+                0x1a001b68                Chip_TIMER_Reset
+ .text.CAN_Init
+                0x1a001b80       0xa0 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(CAN.o)
+                0x1a001b80                CAN_Init
+ .text.CAN_AddReceiveID
+                0x1a001c20       0x1c C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(CAN.o)
+                0x1a001c20                CAN_AddReceiveID
+ .text.CAN_SendMessage
+                0x1a001c3c       0x54 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(CAN.o)
+                0x1a001c3c                CAN_SendMessage
+ .text.CAN0_IRQHandler
+                0x1a001c90       0x74 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(CAN.o)
+                0x1a001c90                CAN0_IRQHandler
+ .text.CAN1_IRQHandler
+                0x1a001d04       0x70 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(CAN.o)
+                0x1a001d04                CAN1_IRQHandler
+ .text.CAN_SetRxCallback
+                0x1a001d74       0x14 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(CAN.o)
+                0x1a001d74                CAN_SetRxCallback
+ .text.CAN_SetStCallback
+                0x1a001d88       0x14 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(CAN.o)
+                0x1a001d88                CAN_SetStCallback
+ .text.getFreeMsgObject
+                0x1a001d9c       0x28 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(ccan_18xx_43xx.o)
+ .text.Chip_CCAN_SetBitRate
+                0x1a001dc4       0xac C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(ccan_18xx_43xx.o)
+                0x1a001dc4                Chip_CCAN_SetBitRate
+ .text.Chip_CCAN_ClearStatus
+                0x1a001e70        0xe C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(ccan_18xx_43xx.o)
+                0x1a001e70                Chip_CCAN_ClearStatus
+ .text.Chip_CCAN_TransferMsgObject
+                0x1a001e7e       0x1e C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(ccan_18xx_43xx.o)
+                0x1a001e7e                Chip_CCAN_TransferMsgObject
+ .text.Chip_CCAN_SetMsgObject
+                0x1a001e9c       0xb0 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(ccan_18xx_43xx.o)
+                0x1a001e9c                Chip_CCAN_SetMsgObject
+ .text.Chip_CCAN_GetMsgObject
+                0x1a001f4c       0x5c C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(ccan_18xx_43xx.o)
+                0x1a001f4c                Chip_CCAN_GetMsgObject
+ .text.Chip_CCAN_SetValidMsg
+                0x1a001fa8       0x28 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(ccan_18xx_43xx.o)
+                0x1a001fa8                Chip_CCAN_SetValidMsg
+ .text.Chip_CCAN_Init
+                0x1a001fd0       0x3c C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(ccan_18xx_43xx.o)
+                0x1a001fd0                Chip_CCAN_Init
+ .text.Chip_CCAN_Send
+                0x1a00200c       0x50 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(ccan_18xx_43xx.o)
+                0x1a00200c                Chip_CCAN_Send
+ .text.Chip_CCAN_AddReceiveID
+                0x1a00205c       0x2a C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(ccan_18xx_43xx.o)
+                0x1a00205c                Chip_CCAN_AddReceiveID
+ .text.memset   0x1a002086        0x4 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libcr_c.a(memset.o)
+                0x1a002086                memset
+ .text.__weak_main
+                0x1a00208a        0x4 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libcr_c.a(__weak__main.o)
+                0x1a00208a                __weak_main
+                0x1a00208a                __main
+ .text.__aeabi_memset_lowlevel
+                0x1a00208e       0x32 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp\libcr_eabihelpers.a(memcpy.o)
+                0x1a00208e                __aeabi_lowlevel_memset
+ *(.rodata .rodata.* .constdata .constdata.*)
+ .rodata.OscRateIn
+                0x1a0020c0        0x4 ./src/sysinit.o
+                0x1a0020c0                OscRateIn
+ .rodata.ExtRateIn
+                0x1a0020c4        0x4 ./src/sysinit.o
+                0x1a0020c4                ExtRateIn
+ .rodata.GPIO_PHYS_PORT
+                0x1a0020c8       0x6c C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(DIO.o)
+                0x1a0020c8                GPIO_PHYS_PORT
+ .rodata.GPIO_PHYS_PIN
+                0x1a002134       0x6c C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(DIO.o)
+                0x1a002134                GPIO_PHYS_PIN
+ .rodata        0x1a0021a0        0x4 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(clock_18xx_43xx.o)
+ .rodata.str1.1
+                0x1a0021a4        0x6 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(clock_18xx_43xx.o)
+ .rodata.periph_to_base
+                0x1a0021aa       0x6c C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(clock_18xx_43xx.o)
+ .rodata.InitClkStates
+                0x1a002216       0x48 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(sysinit_18xx_43xx.o)
+                0x1a002260                . = ALIGN (0x4)
+ *fill*         0x1a00225e        0x2 ff
+
+.glue_7         0x1a002260        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x1a002260        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x1a002260        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x1a002260        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x1a002260        0x0
+ .iplt          0x00000000        0x0 ./src/TPG_2.o
+
+.rel.dyn        0x1a002260        0x0
+ .rel.iplt      0x00000000        0x0 ./src/TPG_2.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x1a002260                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x1a002260                __exidx_end = .
+                0x1a002260                _etext = .
+
+.data_RAM2      0x10080000        0x0 load address 0x1a002260
+ FILL mask 0xff
+                0x10080000                PROVIDE (__start_data_RAM2, .)
+ *(.ramfunc.$RAM2)
+ *(.ramfunc.$RamLoc40)
+ *(.data.$RAM2*)
+ *(.data.$RamLoc40*)
+                0x10080000                . = ALIGN (0x4)
+                0x10080000                PROVIDE (__end_data_RAM2, .)
+
+.data_RAM3      0x20000000        0x0 load address 0x1a002260
+ FILL mask 0xff
+                0x20000000                PROVIDE (__start_data_RAM3, .)
+ *(.ramfunc.$RAM3)
+ *(.ramfunc.$RamAHB32)
+ *(.data.$RAM3*)
+ *(.data.$RamAHB32*)
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                PROVIDE (__end_data_RAM3, .)
+
+.data_RAM4      0x20008000        0x0 load address 0x1a002260
+ FILL mask 0xff
+                0x20008000                PROVIDE (__start_data_RAM4, .)
+ *(.ramfunc.$RAM4)
+ *(.ramfunc.$RamAHB16)
+ *(.data.$RAM4*)
+ *(.data.$RamAHB16*)
+                0x20008000                . = ALIGN (0x4)
+                0x20008000                PROVIDE (__end_data_RAM4, .)
+
+.data_RAM5      0x2000c000        0x0 load address 0x1a002260
+ FILL mask 0xff
+                0x2000c000                PROVIDE (__start_data_RAM5, .)
+ *(.ramfunc.$RAM5)
+ *(.ramfunc.$RamAHB_ETB16)
+ *(.data.$RAM5*)
+ *(.data.$RamAHB_ETB16*)
+                0x2000c000                . = ALIGN (0x4)
+                0x2000c000                PROVIDE (__end_data_RAM5, .)
+
+.uninit_RESERVED
+                0x10000000        0x0
+ *(.bss.$RESERVED*)
+                0x10000000                . = ALIGN (0x4)
+                0x10000000                _end_uninit_RESERVED = .
+
+.data           0x10000000        0x4 load address 0x1a002260
+ FILL mask 0xff
+                0x10000000                _data = .
+ *(vtable)
+ *(.ramfunc*)
+ *(.data*)
+ .data.V_NIM_Ok
+                0x10000000        0x1 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(General.o)
+                0x10000004                . = ALIGN (0x4)
+ *fill*         0x10000001        0x3 ff
+                0x10000004                _edata = .
+
+.igot.plt       0x10000004        0x0 load address 0x1a002264
+ .igot.plt      0x00000000        0x0 ./src/TPG_2.o
+
+.bss_RAM2       0x10080000        0x0
+                0x10080000                PROVIDE (__start_bss_RAM2, .)
+ *(.bss.$RAM2*)
+ *(.bss.$RamLoc40*)
+                0x10080000                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x10080000                PROVIDE (__end_bss_RAM2, .)
+
+.bss_RAM3       0x20000000        0x0
+                0x20000000                PROVIDE (__start_bss_RAM3, .)
+ *(.bss.$RAM3*)
+ *(.bss.$RamAHB32*)
+                0x20000000                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x20000000                PROVIDE (__end_bss_RAM3, .)
+
+.bss_RAM4       0x20008000        0x0
+                0x20008000                PROVIDE (__start_bss_RAM4, .)
+ *(.bss.$RAM4*)
+ *(.bss.$RamAHB16*)
+                0x20008000                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x20008000                PROVIDE (__end_bss_RAM4, .)
+
+.bss_RAM5       0x2000c000        0x0
+                0x2000c000                PROVIDE (__start_bss_RAM5, .)
+ *(.bss.$RAM5*)
+ *(.bss.$RamAHB_ETB16*)
+                0x2000c000                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x2000c000                PROVIDE (__end_bss_RAM5, .)
+
+.bss            0x10000004      0x19c
+                0x10000004                _bss = .
+ *(.bss*)
+ .bss.contErrTot
+                0x10000004        0xc C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(General.o)
+ .bss.partErrReset.9195
+                0x10000010        0x2 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(General.o)
+ .bss.NIMVp12Ok
+                0x10000012        0x4 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(General.o)
+ .bss.WDTimer   0x10000016        0x1 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(General.o)
+ *fill*         0x10000017        0x1 
+ .bss.InitTemp.9194
+                0x10000018        0x2 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(General.o)
+ .bss.NIMVn24Ok
+                0x1000001a        0x4 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(General.o)
+ .bss.NIMFilterTime.9196
+                0x1000001e        0x2 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(General.o)
+ .bss.IBusObject
+                0x10000020        0x4 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(General.o)
+ .bss.contErrParc
+                0x10000024        0xc C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(General.o)
+ .bss.CANErrorCont
+                0x10000030        0x1 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(General.o)
+ .bss.NIMVp24Ok
+                0x10000031        0x4 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(General.o)
+ .bss.NIMVn12Ok
+                0x10000035        0x4 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(General.o)
+ .bss.histError
+                0x10000039        0x7 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(General.o)
+ .bss.INVAPBus  0x10000040        0x4 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(INVAPBus.o)
+ .bss.commErrorCnt
+                0x10000044        0x1 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(INVAPBus.o)
+ .bss.lastTimer
+                0x10000045        0x1 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(timer_vect.o)
+ *fill*         0x10000046        0x2 
+ .bss.timerVector
+                0x10000048       0x40 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(timer_vect.o)
+ .bss.audio_usb_pll_freq
+                0x10000088        0x8 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(clock_18xx_43xx.o)
+ .bss.CAN1_StIntCallback
+                0x10000090        0x4 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(CAN.o)
+ .bss.CAN0_StIntCallback
+                0x10000094        0x4 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(CAN.o)
+ .bss.CAN0_RxIntCallback
+                0x10000098        0x4 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(CAN.o)
+ .bss.CAN1_RxIntCallback
+                0x1000009c        0x4 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(CAN.o)
+ *(COMMON)
+ COMMON         0x100000a0       0xfa ./src/TPG_2.o
+                0x100000a0                sup_12VP
+                0x100000a4                sup_Q1
+                0x100000a8                sup_RS485
+                0x100000ac                wdt_wdi
+                0x100000b0                sup_ATEST
+                0x100000b4                histError
+                0x100000bb                module_address
+                0x100000bc                sup_OUT_plus
+                0x100000c0                sup_Sweep_SW
+                0x100000c4                errorFlags
+                0x100000c8                sup_Rate_B
+                0x100000cc                IBusObj
+                0x100000f4                sup_Q0
+                0x100000f8                inputADC
+                0x100000fe                supervErrorFlags
+                0x10000100                sup_loc_Scale_Freq
+                0x10000104                sup_ASHOTPC
+                0x10000108                add1
+                0x1000010c                add3
+                0x10000110                sup_PC2
+                0x10000114                sup_PC1
+                0x10000118                sup_loc_Pulse_Gain
+                0x1000011c                sup_PC3
+                0x10000120                calibOk
+                0x10000121                sup_PC0
+                0x10000126                outputADC
+                0x1000012c                outputCalParams
+                0x1000013c                firstPacket
+                0x1000013d                add0
+                0x10000141                contErrEEPROM
+                0x10000142                sup_PC
+                0x10000146                outReadCounter
+                0x10000147                sup_ASCALE_FREQ
+                0x1000014b                add5
+                0x1000014f                add4
+                0x10000154                inputCalParams
+                0x10000164                inReadCounter
+                0x10000165                sup_Q2
+                0x10000169                sup_24VP
+                0x1000016d                sup_12VN
+                0x10000172                remote_lines
+                0x10000174                configBitReg
+                0x10000176                nim_voltages
+                0x10000178                errorCont
+                0x10000184                sup_Rate_A
+                0x10000188                sup_OUT_minus
+                0x1000018c                led_OK
+                0x10000190                add2
+                0x10000194                sup_AGAINPC
+                0x10000198                local_configuration
+                0x10000199                supervisorTimer
+ *fill*         0x1000019a        0x2 
+ COMMON         0x1000019c        0x4 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(chip_18xx_43xx.o)
+                0x1000019c                SystemCoreClock
+                0x100001a0                . = ALIGN (0x4)
+                0x100001a0                _ebss = .
+                0x100001a0                PROVIDE (end, .)
+
+.noinit_RAM2    0x10080000        0x0
+ *(.noinit.$RAM2*)
+ *(.noinit.$RamLoc40*)
+                0x10080000                . = ALIGN (0x4)
+
+.noinit_RAM3    0x20000000        0x0
+ *(.noinit.$RAM3*)
+ *(.noinit.$RamAHB32*)
+                0x20000000                . = ALIGN (0x4)
+
+.noinit_RAM4    0x20008000        0x0
+ *(.noinit.$RAM4*)
+ *(.noinit.$RamAHB16*)
+                0x20008000                . = ALIGN (0x4)
+
+.noinit_RAM5    0x2000c000        0x0
+ *(.noinit.$RAM5*)
+ *(.noinit.$RamAHB_ETB16*)
+                0x2000c000                . = ALIGN (0x4)
+
+.noinit         0x100001a0        0x0
+                0x100001a0                _noinit = .
+ *(.noinit*)
+                0x100001a0                . = ALIGN (0x4)
+                0x100001a0                _end_noinit = .
+                0x100001a0                PROVIDE (_pvHeapStart, DEFINED (__user_heap_base)?__user_heap_base:.)
+                0x10008000                PROVIDE (_vStackTop, DEFINED (__user_stack_top)?__user_stack_top:(__top_RamLoc32 - 0x0))
+                0x53ff6e66                PROVIDE (__valid_user_code_checksum, (0x0 - ((((((_vStackTop + (ResetISR + 0x1)) + (NMI_Handler + 0x1)) + (HardFault_Handler + 0x1)) + (DEFINED (MemManage_Handler)?MemManage_Handler:0x0 + 0x1)) + (DEFINED (BusFault_Handler)?BusFault_Handler:0x0 + 0x1)) + (DEFINED (UsageFault_Handler)?UsageFault_Handler:0x0 + 0x1))))
+OUTPUT(TPG_2.axf elf32-littlearm)
+
+.debug_info     0x00000000     0xc4e4
+ .debug_info    0x00000000     0x1808 ./src/TPG_2.o
+ .debug_info    0x00001808      0x2c6 ./src/cr_startup_lpc43xx.o
+ .debug_info    0x00001ace       0x3b ./src/crp.o
+ .debug_info    0x00001b09      0x5e0 ./src/sysinit.o
+ .debug_info    0x000020e9      0xfc6 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(DIO.o)
+ .debug_info    0x000030af     0x183f C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(General.o)
+ .debug_info    0x000048ee      0x8e8 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(INVAPBus.o)
+ .debug_info    0x000051d6      0xe61 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(timer_vect.o)
+ .debug_info    0x00006037      0xcac C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(chip_18xx_43xx.o)
+ .debug_info    0x00006ce3     0x18ba C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(clock_18xx_43xx.o)
+ .debug_info    0x0000859d      0x127 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(fpu_init.o)
+ .debug_info    0x000086c4      0x48d C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(gpio_18xx_43xx.o)
+ .debug_info    0x00008b51      0xa86 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(sysinit_18xx_43xx.o)
+ .debug_info    0x000095d7      0x562 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(timer_18xx_43xx.o)
+ .debug_info    0x00009b39     0x1a60 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(CAN.o)
+ .debug_info    0x0000b599      0xf4b C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(ccan_18xx_43xx.o)
+
+.debug_abbrev   0x00000000     0x22cf
+ .debug_abbrev  0x00000000      0x2b6 ./src/TPG_2.o
+ .debug_abbrev  0x000002b6      0x119 ./src/cr_startup_lpc43xx.o
+ .debug_abbrev  0x000003cf       0x33 ./src/crp.o
+ .debug_abbrev  0x00000402      0x100 ./src/sysinit.o
+ .debug_abbrev  0x00000502      0x261 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(DIO.o)
+ .debug_abbrev  0x00000763      0x36b C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(General.o)
+ .debug_abbrev  0x00000ace      0x1f7 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(INVAPBus.o)
+ .debug_abbrev  0x00000cc5      0x296 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(timer_vect.o)
+ .debug_abbrev  0x00000f5b      0x1eb C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(chip_18xx_43xx.o)
+ .debug_abbrev  0x00001146      0x436 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(clock_18xx_43xx.o)
+ .debug_abbrev  0x0000157c       0x9d C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(fpu_init.o)
+ .debug_abbrev  0x00001619      0x153 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(gpio_18xx_43xx.o)
+ .debug_abbrev  0x0000176c      0x20e C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(sysinit_18xx_43xx.o)
+ .debug_abbrev  0x0000197a      0x1c5 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(timer_18xx_43xx.o)
+ .debug_abbrev  0x00001b3f      0x3b5 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(CAN.o)
+ .debug_abbrev  0x00001ef4      0x3db C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(ccan_18xx_43xx.o)
+
+.debug_loc      0x00000000     0x339d
+ .debug_loc     0x00000000      0x21f ./src/TPG_2.o
+ .debug_loc     0x0000021f      0x232 ./src/cr_startup_lpc43xx.o
+ .debug_loc     0x00000451      0x451 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(DIO.o)
+ .debug_loc     0x000008a2      0x34f C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(General.o)
+ .debug_loc     0x00000bf1       0xb0 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(INVAPBus.o)
+ .debug_loc     0x00000ca1      0x140 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(timer_vect.o)
+ .debug_loc     0x00000de1      0xfe4 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(clock_18xx_43xx.o)
+ .debug_loc     0x00001dc5       0x20 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(fpu_init.o)
+ .debug_loc     0x00001de5      0x2fb C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(gpio_18xx_43xx.o)
+ .debug_loc     0x000020e0       0xb0 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(sysinit_18xx_43xx.o)
+ .debug_loc     0x00002190      0x189 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(timer_18xx_43xx.o)
+ .debug_loc     0x00002319      0x68d C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(CAN.o)
+ .debug_loc     0x000029a6      0x9f7 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(ccan_18xx_43xx.o)
+
+.debug_aranges  0x00000000      0x5d0
+ .debug_aranges
+                0x00000000       0x78 ./src/TPG_2.o
+ .debug_aranges
+                0x00000078       0x80 ./src/cr_startup_lpc43xx.o
+ .debug_aranges
+                0x000000f8       0x18 ./src/crp.o
+ .debug_aranges
+                0x00000110       0x20 ./src/sysinit.o
+ .debug_aranges
+                0x00000130       0x68 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(DIO.o)
+ .debug_aranges
+                0x00000198       0xa8 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(General.o)
+ .debug_aranges
+                0x00000240       0x40 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(INVAPBus.o)
+ .debug_aranges
+                0x00000280       0x48 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(timer_vect.o)
+ .debug_aranges
+                0x000002c8       0x38 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(chip_18xx_43xx.o)
+ .debug_aranges
+                0x00000300      0x110 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(clock_18xx_43xx.o)
+ .debug_aranges
+                0x00000410       0x20 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(fpu_init.o)
+ .debug_aranges
+                0x00000430       0x48 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(gpio_18xx_43xx.o)
+ .debug_aranges
+                0x00000478       0x40 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(sysinit_18xx_43xx.o)
+ .debug_aranges
+                0x000004b8       0x38 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(timer_18xx_43xx.o)
+ .debug_aranges
+                0x000004f0       0x68 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(CAN.o)
+ .debug_aranges
+                0x00000558       0x78 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(ccan_18xx_43xx.o)
+
+.debug_ranges   0x00000000      0x650
+ .debug_ranges  0x00000000       0x80 ./src/TPG_2.o
+ .debug_ranges  0x00000080       0x70 ./src/cr_startup_lpc43xx.o
+ .debug_ranges  0x000000f0       0x10 ./src/sysinit.o
+ .debug_ranges  0x00000100       0xa0 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(DIO.o)
+ .debug_ranges  0x000001a0       0x98 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(General.o)
+ .debug_ranges  0x00000238       0x30 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(INVAPBus.o)
+ .debug_ranges  0x00000268       0x38 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(timer_vect.o)
+ .debug_ranges  0x000002a0       0x28 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(chip_18xx_43xx.o)
+ .debug_ranges  0x000002c8      0x180 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(clock_18xx_43xx.o)
+ .debug_ranges  0x00000448       0x10 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(fpu_init.o)
+ .debug_ranges  0x00000458       0x68 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(gpio_18xx_43xx.o)
+ .debug_ranges  0x000004c0       0x30 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(sysinit_18xx_43xx.o)
+ .debug_ranges  0x000004f0       0x28 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(timer_18xx_43xx.o)
+ .debug_ranges  0x00000518       0x70 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(CAN.o)
+ .debug_ranges  0x00000588       0xc8 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(ccan_18xx_43xx.o)
+
+.debug_line     0x00000000     0x2783
+ .debug_line    0x00000000      0x4e2 ./src/TPG_2.o
+ .debug_line    0x000004e2       0xd6 ./src/cr_startup_lpc43xx.o
+ .debug_line    0x000005b8       0x2d ./src/crp.o
+ .debug_line    0x000005e5      0x153 ./src/sysinit.o
+ .debug_line    0x00000738      0x270 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(DIO.o)
+ .debug_line    0x000009a8      0x4c2 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(General.o)
+ .debug_line    0x00000e6a      0x225 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(INVAPBus.o)
+ .debug_line    0x0000108f      0x22f C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(timer_vect.o)
+ .debug_line    0x000012be      0x1ee C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(chip_18xx_43xx.o)
+ .debug_line    0x000014ac      0x587 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(clock_18xx_43xx.o)
+ .debug_line    0x00001a33      0x11c C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(fpu_init.o)
+ .debug_line    0x00001b4f      0x19e C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(gpio_18xx_43xx.o)
+ .debug_line    0x00001ced      0x24e C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(sysinit_18xx_43xx.o)
+ .debug_line    0x00001f3b      0x1a3 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(timer_18xx_43xx.o)
+ .debug_line    0x000020de      0x390 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(CAN.o)
+ .debug_line    0x0000246e      0x315 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(ccan_18xx_43xx.o)
+
+.debug_str      0x00000000     0x3174
+ .debug_str     0x00000000     0x1309 ./src/TPG_2.o
+                               0x1365 (size before relaxing)
+ .debug_str     0x00001309      0x19d ./src/cr_startup_lpc43xx.o
+                                0x2ed (size before relaxing)
+ .debug_str     0x000014a6       0x16 ./src/crp.o
+                                0x147 (size before relaxing)
+ .debug_str     0x000014bc       0x47 ./src/sysinit.o
+                                0xc42 (size before relaxing)
+ .debug_str     0x00001503      0x248 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(DIO.o)
+                                0xe51 (size before relaxing)
+ .debug_str     0x0000174b      0x470 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(General.o)
+                               0x137e (size before relaxing)
+ .debug_str     0x00001bbb      0x102 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(INVAPBus.o)
+                                0xdf4 (size before relaxing)
+ .debug_str     0x00001cbd      0x4e1 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(timer_vect.o)
+                               0x11fe (size before relaxing)
+ .debug_str     0x0000219e      0x275 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(chip_18xx_43xx.o)
+                               0x103c (size before relaxing)
+ .debug_str     0x00002413      0x472 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(clock_18xx_43xx.o)
+                               0x147b (size before relaxing)
+ .debug_str     0x00002885       0x6c C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(fpu_init.o)
+                                0x218 (size before relaxing)
+ .debug_str     0x000028f1      0x109 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(gpio_18xx_43xx.o)
+                                0x313 (size before relaxing)
+ .debug_str     0x000029fa       0xf2 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(sysinit_18xx_43xx.o)
+                                0xf2d (size before relaxing)
+ .debug_str     0x00002aec      0x144 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(timer_18xx_43xx.o)
+                                0x732 (size before relaxing)
+ .debug_str     0x00002c30      0x39c C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(CAN.o)
+                               0x161f (size before relaxing)
+ .debug_str     0x00002fcc      0x1a8 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(ccan_18xx_43xx.o)
+                                0x991 (size before relaxing)
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 ./src/TPG_2.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 ./src/cr_startup_lpc43xx.o
+ .comment       0x00000000       0x71 ./src/crp.o
+ .comment       0x00000000       0x71 ./src/sysinit.o
+ .comment       0x00000000       0x71 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(DIO.o)
+ .comment       0x00000000       0x71 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(General.o)
+ .comment       0x00000000       0x71 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(INVAPBus.o)
+ .comment       0x00000000       0x71 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(timer_vect.o)
+ .comment       0x00000000       0x71 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(chip_18xx_43xx.o)
+ .comment       0x00000000       0x71 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(clock_18xx_43xx.o)
+ .comment       0x00000000       0x71 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(fpu_init.o)
+ .comment       0x00000000       0x71 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(gpio_18xx_43xx.o)
+ .comment       0x00000000       0x71 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(sysinit_18xx_43xx.o)
+ .comment       0x00000000       0x71 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(timer_18xx_43xx.o)
+ .comment       0x00000000       0x71 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(CAN.o)
+ .comment       0x00000000       0x71 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(ccan_18xx_43xx.o)
+ .comment       0x00000000       0x71 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libcr_c.a(memset.o)
+ .comment       0x00000000       0x71 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libcr_c.a(__weak__main.o)
+
+.ARM.attributes
+                0x00000000       0x35
+ .ARM.attributes
+                0x00000000       0x37 ./src/TPG_2.o
+ .ARM.attributes
+                0x00000037       0x37 ./src/cr_startup_lpc43xx.o
+ .ARM.attributes
+                0x0000006e       0x37 ./src/crp.o
+ .ARM.attributes
+                0x000000a5       0x37 ./src/sysinit.o
+ .ARM.attributes
+                0x000000dc       0x37 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(DIO.o)
+ .ARM.attributes
+                0x00000113       0x37 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(General.o)
+ .ARM.attributes
+                0x0000014a       0x37 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(INVAPBus.o)
+ .ARM.attributes
+                0x00000181       0x37 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(timer_vect.o)
+ .ARM.attributes
+                0x000001b8       0x37 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(chip_18xx_43xx.o)
+ .ARM.attributes
+                0x000001ef       0x37 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(clock_18xx_43xx.o)
+ .ARM.attributes
+                0x00000226       0x37 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(fpu_init.o)
+ .ARM.attributes
+                0x0000025d       0x37 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(gpio_18xx_43xx.o)
+ .ARM.attributes
+                0x00000294       0x37 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(sysinit_18xx_43xx.o)
+ .ARM.attributes
+                0x000002cb       0x37 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(timer_18xx_43xx.o)
+ .ARM.attributes
+                0x00000302       0x37 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(CAN.o)
+ .ARM.attributes
+                0x00000339       0x37 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(ccan_18xx_43xx.o)
+ .ARM.attributes
+                0x00000370       0x37 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libcr_c.a(memset.o)
+ .ARM.attributes
+                0x000003a7       0x37 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libcr_c.a(__weak__main.o)
+ .ARM.attributes
+                0x000003de       0x25 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp\libcr_eabihelpers.a(memcpy.o)
+
+.debug_frame    0x00000000      0xd64
+ .debug_frame   0x00000000      0x1a0 ./src/TPG_2.o
+ .debug_frame   0x000001a0       0xf0 ./src/cr_startup_lpc43xx.o
+ .debug_frame   0x00000290       0x2c ./src/sysinit.o
+ .debug_frame   0x000002bc       0xe0 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(DIO.o)
+ .debug_frame   0x0000039c      0x1b0 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(General.o)
+ .debug_frame   0x0000054c       0x7c C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(INVAPBus.o)
+ .debug_frame   0x000005c8       0x7c C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(timer_vect.o)
+ .debug_frame   0x00000644       0x70 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(chip_18xx_43xx.o)
+ .debug_frame   0x000006b4      0x2c4 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(clock_18xx_43xx.o)
+ .debug_frame   0x00000978       0x28 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(fpu_init.o)
+ .debug_frame   0x000009a0       0x70 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(gpio_18xx_43xx.o)
+ .debug_frame   0x00000a10       0x74 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(sysinit_18xx_43xx.o)
+ .debug_frame   0x00000a84       0x60 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(timer_18xx_43xx.o)
+ .debug_frame   0x00000ae4      0x100 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(CAN.o)
+ .debug_frame   0x00000be4      0x180 C:\Users\Invap\Documents\Firmware\Marcos\LPC4337_Framework\Release\libLPC4337_Framework.a(ccan_18xx_43xx.o)
